@@ -29,3 +29,34 @@ E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.dll
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.xml
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\WebClientes.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\WebClientes.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\WebClientes.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\AspNet.ScriptManager.jQuery.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.AspNet.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.Core.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OAuth.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OpenId.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\EntityFramework.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\Microsoft.Web.Infrastructure.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\System.Web.Providers.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\EntityFramework.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.Core.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OAuth.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OpenId.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.AspNet.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\EntityFramework.resources.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\System.Web.Providers.resources.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.vbprojResolveAssemblyReference.cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.Resources.resources
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.vbproj.GenerateResource.Cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.pdb

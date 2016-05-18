@@ -23,7 +23,7 @@ Public Class Service1
     Public Function verificarUsuario(x As String, y As String) As Boolean Implements IService1.verificarUsuario
         Dim verificar As BL_Inmobiliaria.bl_inmobiliaria
         Dim acceso As Boolean
-        acceso = verificar
+        'acceso = verificar
         Return acceso
     End Function
 

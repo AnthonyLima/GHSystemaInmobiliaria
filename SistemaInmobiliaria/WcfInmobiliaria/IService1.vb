@@ -26,3 +26,62 @@ Public Class CompositeType
     Public Property StringValue() As String
 
 End Class
+Public Class usuarios
+    Private _id As Integer
+    Public Property id() As Integer
+        Get
+            Return _id
+        End Get
+        Set(ByVal value As Integer)
+            _id = value
+        End Set
+    End Property
+    Private _usuario As String
+    Public Property usuario() As String
+        Get
+            Return _usuario
+        End Get
+        Set(ByVal value As String)
+            _usuario = value
+        End Set
+    End Property
+    Private _clave As String
+    Public Property clave() As String
+        Get
+            Return _clave
+        End Get
+        Set(ByVal value As String)
+            _clave = value
+        End Set
+    End Property
+    Private _NombreYApellidos As String
+    Public Property NombreYApellidos() As String
+        Get
+            Return _NombreYApellidos
+        End Get
+        Set(ByVal value As String)
+            _NombreYApellidos = value
+        End Set
+    End Property
+End Class
+Public Class roles
+    Private _id As Integer
+    Public Property id() As Integer
+        Get
+            Return _id
+        End Get
+        Set(ByVal value As Integer)
+            _id = value
+        End Set
+    End Property
+    Private _nombre As String
+    Public Property nombre() As String
+        Get
+            Return _nombre
+        End Get
+        Set(ByVal value As String)
+            _nombre = value
+        End Set
+    End Property
+End Class
+
