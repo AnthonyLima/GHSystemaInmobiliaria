@@ -1,0 +1,573 @@
+create database Inmobiliaria
+
+use Inmobiliaria
+
+create table TipoDoc(
+ID int IDENTITY(1,1) not null,
+Descripcion varchar(10)
+constraint pk_id_TipoDoc primary key(ID)
+);
+
+create  procedure tipodoc_insert
+@descripcion text
+as begin
+insert into TipoDoc values (@descripcion)
+end
+
+create proc tipodoc_update
+@id int,
+@descripcion text
+as begin
+update TipoDoc set descripcion=@descripcion where id = @id
+end
+
+create proc tipodoc_delete
+@id int
+as begin
+delete from TipoDoc where id = @id
+end
+
+create proc tipodoc_select
+as begin
+select * from TipoDoc
+end
+
+
+
+create TABLE Persona(
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Id_TDoc][int]not null,
+	[Nombres] [nvarchar](40) NOT NULL,
+	[Apellidos] [nvarchar](50) NOT NULL,
+	[FechaNac] [date] NOT NULL,
+	[Direccion][nvarchar](50) not null,
+	[Telefono_fijo] [int] NOT NULL,
+	[Telefono_Movil] [bigint] NOT NULL,
+	[Correo] [nvarchar](50) NOT NULL,
+	[Nacionalidad] [nvarchar](20) NOT NULL
+    constraint pk_id_cliente primary key(ID),
+	constraint fk_tipodoc_persona foreign key(Id_TDoc) references TipoDoc(ID)
+);
+
+create proc Persona_insert
+@id_tdoc int,
+@nombres text,
+@apellidos text, 
+@fechanac date,
+@direccion text,
+@telefono_fijo int,
+@telefono_movil bigint,
+@correo text,
+@nacionalidad text
+as begin
+insert into Persona values (@id_tdoc, @nombres, @apellidos, @fechanac, @direccion, @telefono_fijo, @telefono_movil, @correo, @nacionalidad)
+end
+
+create proc Persona_update
+@id int,
+@nombres text,
+@apellidos text, 
+@fechanac date,
+@direccion text,
+@telefono_fijo int,
+@telefono_movil bigint,
+@correo text,
+@nacionalidad text
+as begin
+update Persona set nombres=@nombres, apellidos=@apellidos, fechanac=@fechanac, direccion = @direccion, telefono_fijo=@telefono_fijo, telefono_movil=@telefono_movil, correo=@correo, nacionalidad=@nacionalidad
+where id = @id
+end
+
+create proc Persona_delete
+@id int
+as begin
+delete from Persona where id = @id
+end
+
+create proc Persona_select
+as begin
+select * from Persona
+end
+
+
+
+create table Cliente(
+ID bigint IDENTITY(1,1) not null ,
+descripcion nvarchar(100) not null
+constraint pk_cliente primary key(ID),
+constraint fk_id_cliente foreign key(ID) references Persona(ID)
+);
+
+create proc Cliente_insert
+@descripcion text
+as begin
+insert into Cliente values (@descripcion)
+end
+
+create proc Cliente_update
+@id int,
+@descripcion text
+as begin
+update Cliente set descripcion=@descripcion where id = @id
+end
+
+create proc Cliente_delete
+@id int
+as begin
+delete from Cliente where id = @id
+end
+
+create proc Cliente_select
+as begin
+select * from Cliente
+end
+
+
+
+create table Empleado(
+ID bigint IDENTITY (1,1) not null,
+cargo nvarchar(25) not null,
+fechaContratacion date,
+salario money,
+observaciones nvarchar(100) not null
+constraint pk_empleado primary key(ID),
+constraint fk_id_empleado foreign key(ID) references Persona(ID)
+)
+
+create proc Empleado_insert
+@cargo text,
+@fechacontratacion date,
+@salario money,
+@observaciones text
+as begin
+insert into Empleado values (@cargo, @fechacontratacion, @salario, @observaciones)
+end
+
+create proc Empleado_update
+@id int, 
+@cargo text,
+@fechacontratacion date,
+@salario money,
+@observaciones text
+as begin
+update Empleado set cargo=@cargo, fechacontratacion=@fechacontratacion, salario=@salario, observaciones=@observaciones
+where id = @id
+end
+
+create proc Empleado_delete
+@id int
+as begin
+delete from Empleado where id = @id
+end
+
+create proc Empleado_select
+as begin
+select * from Empleado
+end
+
+
+
+create table Departamento(
+ID int IDENTITY(1,1) not null,
+Nombre nvarchar(25) not null,
+descripcion nvarchar(80)
+constraint pk_Departamento primary key(ID));
+
+create proc Departamento_insert
+@nombre text,
+@descripcion text
+as begin
+insert into Departamento values (@nombre, @descripcion)
+end
+
+create proc Departamento_update
+@id int,
+@nombre text,
+@descripcion text
+as begin
+update Departamento set nombre=@nombre, descripcion=@descripcion where id = @id
+end
+
+create proc Departamento_delete
+@id int
+as begin
+delete from Departamento where id = @id
+end
+
+create proc Departamento_select
+as begin
+select * from Departamento
+end
+
+
+
+create table Provincia(
+ID int IDENTITY(1,1) not null,
+ID_Depart int not null,
+Nombre nvarchar(25) not null,
+descripcion nvarchar(80)
+constraint pk_id_Provincia primary key(ID),
+constraint fk_id_departamento foreign key(ID_Depart) references Departamento(ID));
+
+create proc Provincia_insert
+@id_depart int,
+@nombre text,
+@descripcion text
+as begin
+insert into Provincia values (@id_depart, @nombre, @descripcion)
+end
+
+create proc Provincia_update
+@id int,
+@nombre text,
+@descripcion text
+as begin
+update Provincia set nombre=@nombre, descripcion=@descripcion where id = @id
+end
+
+create proc Provincia_delete
+@id int
+as begin
+delete from Provincia where id = @id
+end
+
+create proc Provincia_select
+as begin
+select * from Provincia
+end 
+
+create table Propiedad(
+ID int IDENTITY(1,1) not null,
+Titulo_Propiedad varchar(20) not null,
+MtsCuadrados int not null,
+mtsConstruccion int not null,
+Direccion nvarchar(100) not null,
+ID_Provincia int not null,
+CantBanos int,
+Habitaciones int not null,
+PrecioVenta money,
+PrecioAdquirido money not null,
+observaciones nvarchar(100),
+estadoVenta bit not null,
+FechaConstruccion date,
+FechaInscripcion date
+constraint pk_id_casa primary key (ID),
+constraint fk_id_provincia foreign key(ID_Provincia) references Provincia(ID));
+
+create proc Propiedad_insert
+@titulo_propiedad text,
+@mtscuadrados int,
+@mtsconstruccion int,
+@direccion text,
+@id_provincia int,
+@cantbanios int,
+@habitaciones int, 
+@precio_venta money,
+@precio_adquirido money,
+@observaciones text,
+@estadoventa bit,
+@fechaconstruccion date,
+@fechainscripcion date
+as begin
+insert into Propiedad values (@titulo_propiedad, @mtscuadrados, @mtsconstruccion, @direccion, @id_provincia, 
+@cantbanios, @habitaciones, @precio_venta, @precio_adquirido, @observaciones, @estadoventa, @fechaconstruccion,  
+@fechainscripcion)
+end
+
+create proc Propiedad_update
+@id int,
+@titulo_propiedad text,
+@mtscuadrados int,
+@mtsconstruccion int,
+@direccion text,
+@cantbanios int,
+@habitaciones int, 
+@precio_venta money,
+@precio_adquirido money,
+@observaciones text,
+@estadoventa bit,
+@fechaconstruccion date,
+@fechainscripcion date
+as begin
+update Propiedad set titulo_propiedad=@titulo_propiedad, mtscuadrados=@mtscuadrados, 
+mtsconstruccion=@mtsconstruccion, direccion=@direccion, cantbanos=@cantbanios,
+habitaciones=@habitaciones, precioventa=@precio_venta, precioadquirido=@precio_adquirido, 
+observaciones=@observaciones, estadoventa=@estadoventa, fechaconstruccion=@fechaconstruccion, 
+fechainscripcion=@fechainscripcion where id = @id
+end
+
+create proc Propiedad_delete
+@id int
+as begin
+delete from Propiedad where id = @id
+end
+
+create proc Propiedad_select
+as begin
+select * from Propiedad
+end
+
+
+
+create table Cita
+(ID int IDENTITY(1,1) not null,
+fecha_creacion date,
+descripcion varchar(200)
+constraint pk_id_citas primary key(id));
+
+create proc Cita_insert
+@fecha_creacion date,
+@descripcion text
+as begin
+insert into Cita values (@fecha_creacion, @descripcion)
+end
+
+create proc Cita_update
+@id int,
+@fecha_creacion date,
+@descripcion text
+as begin
+update Cita set fecha_creacion=@fecha_creacion, descripcion=@descripcion where id = @id
+end
+
+create proc Cita_delete
+@id int
+as begin
+delete from Cita where id = @id
+end
+
+create proc Cita_select
+as begin
+select * from Cita
+end
+
+
+
+create table detalle_cita(
+ID int IDENTITY(1,1) not null,
+ID_cita int not null,
+fecha_cita date not null,
+motivo nvarchar(30) not null,
+lugar varchar(100),
+ID_Cliente bigint,
+ID_Empleado bigint
+constraint pk_id_detcita primary key(ID),
+constraint fk_id_cliente_det foreign key(ID_Cliente) REFERENCES Cliente(ID),
+constraint fk_id_vendedor_det foreign key(ID_Empleado) REFERENCES Empleado(ID),
+constraint fk_id_cita_detcita foreign key(ID_cita) REFERENCES Cita(ID));
+
+create proc detalle_cita_insert
+@id_cita int,
+@fecha_cita date,
+@motivo text,
+@lugar text,
+@id_cliente int,
+@id_empleado int
+as begin
+insert into detalle_cita values (@id_cita, @fecha_cita, @motivo, @lugar, 
+@id_cliente, @id_empleado)
+end
+
+create proc detalle_cita_update
+@id int,
+@fecha_cita date,
+@motivo text,
+@lugar text,
+@id_cliente int,
+@id_empleado int
+as begin
+update detalle_cita set fecha_cita=@fecha_cita, motivo=@motivo, lugar=@lugar, 
+id_cliente=@id_cliente, id_empleado=@id_empleado where id = @id
+end
+
+create proc detalle_cita_delete
+@id int
+as begin
+delete from detalle_cita where id = @id
+end
+
+create proc detalle_cita_select
+as begin
+select * from detalle_cita
+end
+
+
+
+create table Venta(
+ID int IDENTITY(1,1) not null,
+ID_cliente bigint,
+ID_propiedad int,
+monto_total money not null,
+descripcion nvarchar(100),
+cuotas int not null
+constraint pk_ventaid primary key(ID),
+constraint fk_id_cliente_venta foreign key(ID_cliente) references Cliente(ID),
+constraint fk_id_propiedad foreign key(ID_propiedad) references Propiedad(ID));
+
+create proc venta_insert
+@id_cliente int,
+@id_propiedad int,
+@monto_total money,
+@descripcion text,
+@cuotas int
+as begin
+insert into venta values (@id_cliente, @id_propiedad,@monto_total, 
+@descripcion, @cuotas)
+end
+
+create proc venta_update
+@id int,
+@monto_total money,
+@descripcion text,
+@cuotas int
+as begin
+update venta set monto_total=@monto_total, 
+descripcion=@descripcion, cuotas=@cuotas where id = @id
+end
+
+create proc venta_delete
+@id int
+as begin
+delete from venta where id = @id
+end
+
+create proc venta_select
+as begin
+select * from venta
+end
+
+
+
+create table Detalle_Venta(
+ID int IDENTITY(1,1) not null,
+ID_venta int,
+monto_dado money,
+fecha_pago date,
+descripcion varchar(40)
+constraint pk_id_detventa primary key(ID),
+constraint fk_id_pago_detventa foreign key(ID_venta)
+    REFERENCES Venta(ID));
+
+create proc detalle_venta_insert
+@id_venta int,
+@monto_dado money,
+@fecha_pago date,
+@descripcion text
+as begin
+insert into detalle_venta values (@id_venta, @monto_dado, @fecha_pago, @descripcion)
+end
+
+create proc detalle_venta_update
+@id int,
+@monto_dado money,
+@fecha_pago date,
+@descripcion text
+as begin
+update detalle_venta set monto_dado=@monto_dado, fecha_pago=@fecha_pago, 
+descripcion=@descripcion where id = @id
+end
+
+create proc detalle_venta_delete
+@id int
+as begin
+delete from detalle_venta where id = @id
+end
+
+create proc detalle_venta_select
+as begin
+select * from detalle_venta
+end
+
+
+
+-----------------------------------
+
+create table Usuarios(
+ID int not null,
+Usuario nvarchar(20) not null,
+Clave nvarchar(25) not null,
+NombreYApellidos nvarchar(60) not null
+constraint pk_Usuarios primary key(id));
+
+insert into Usuarios values (1, 'andree', 'alvarez', 'alvarezguzman')
+
+
+create table Roles(
+ID int not null,
+Nombre nvarchar(10) not null
+constraint pk_Roles primary key(ID));
+
+create table UsuariosRoles(
+ID_Usuarios int not null,
+ID_Roles int not null
+constraint pk_UsuariosRoles primary key(ID_Usuarios,ID_Roles),
+constraint fk_id_Usuarios foreign key(ID_Usuarios)
+ references Usuarios(ID),
+ constraint fk_id_Roles foreign key(ID_Roles)
+  references Roles(ID));
+
+create table Perfiles(
+ID int not null,
+Nombre nvarchar(20) not null
+constraint pk_Perfiles primary key(ID));
+
+create table UsuariosPerfiles(
+ID_Usuarios int not null,
+ID_Perfiles int not null
+constraint pk_UsuariosPerfiles primary key(ID_Usuarios,ID_Perfiles),
+constraint fk_id_User foreign key(ID_Usuarios)
+ references Usuarios(ID),
+constraint fk_id_Perfiles foreign key(ID_Perfiles)
+ references Perfiles(ID));
+
+create table Aplicaciones(
+ID int not null,
+Nombre nvarchar(20) not null
+constraint pk_Aplicaciones primary key(ID));
+
+create table Opciones(
+ID int not null,
+Nombre nvarchar(10) not null,
+ID_App int not null
+constraint pk_Opciones primary key(ID),
+constraint fk_id_app foreign key(ID_App)
+ references Aplicaciones(ID));
+
+
+create table Menus(
+ID int not null,
+nombre nvarchar(10) not null,
+des_const int,
+ID_MenuPadre int,
+ID_Aplicacion int not null
+constraint pk_Menus primary key(ID),
+constraint fk_id_menuPadre foreign key(ID_MenuPadre)
+ references Menus(ID),
+constraint fk_id_aplicaciones foreign key(ID_Aplicacion)
+ references Aplicaciones(ID));
+
+ create table PermisosUsuarios(
+ ID_Usuarios int not null,
+ ID_Menus int not null,
+ ID_Opciones int not null,
+ TipoPermiso char(1) not null
+ constraint pk_PermisosUsuarios primary key(ID_Usuarios,ID_Menus, ID_Opciones)
+ constraint fk_id_users foreign key(ID_Usuarios)
+  references Usuarios(ID),
+ constraint fk_id_menus foreign key(ID_Menus)
+  references Menus(ID),
+ constraint fk_id_opciones foreign key(ID_Opciones)
+  references Opciones(ID));
+
+create table PermisosPerfiles(
+ID_Perfil int not null,
+ID_Menu int not null,
+ID_Opcion int not null,
+TipoPermisos char(1) not null
+constraint pk_PermisosPerfiles primary key(ID_Perfil,ID_Menu,ID_Opcion)
+constraint fk_id_perfil foreign key(ID_Perfil)
+ references Perfiles(ID),
+constraint fk_id_menu foreign key(ID_Menu)
+ references Menus(ID),
+constraint fk_id_opcion foreign key(ID_Opcion)
+ references Opciones(ID));

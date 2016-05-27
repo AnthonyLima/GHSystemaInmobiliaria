@@ -35,3 +35,78 @@ C:\Users\EQUIPO_PC\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.vbproj.Ge
 C:\Users\EQUIPO_PC\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.dll
 C:\Users\EQUIPO_PC\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.xml
 C:\Users\EQUIPO_PC\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.pdb
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\ApplicationInsights.config
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\csc.exe
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\vbc.exe
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\AppWeb.dll.config
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\AppWeb.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\AppWeb.pdb
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\AppWeb.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.Web.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.ApplicationInsights.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.Web.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.ApplicationInsights.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.vbprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.Resources.resources
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.vbproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.dll
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.xml
+C:\Users\usuario\Desktop\SistemaInmobiliaria\AppWeb\obj\Debug\AppWeb.pdb
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\ApplicationInsights.config
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\csc.exe
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\vbc.exe
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\VBCSCompiler.exe
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\AppWeb.dll.config
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\AppWeb.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\AppWeb.pdb
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\AppWeb.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.DependencyCollector.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.Web.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.WindowsServer.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.ApplicationInsights.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.DependencyCollector.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.Web.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.AI.WindowsServer.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.ApplicationInsights.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.vbprojResolveAssemblyReference.cache
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.Resources.resources
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.vbproj.GenerateResource.Cache
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.dll
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.xml
+E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.pdb
