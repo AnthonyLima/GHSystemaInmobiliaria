@@ -20,11 +20,9 @@ Public Class Service1
         Return composite
     End Function
 
-    Public Function verificarUsuario(x As String, y As String) As Boolean Implements IService1.verificarUsuario
-        Dim verificar As BL_Inmobiliaria.bl_inmobiliaria
-        Dim acceso As Boolean
-        'acceso = verificar
-        Return acceso
+    Public Function verificarUsuario(x As String, y As String) As usuarios Implements IService1.verificarUsuario
+        Dim verificar As New BL_Inmobiliaria.bl_inmobiliaria
+        verificar.
     End Function
 
 End Class
