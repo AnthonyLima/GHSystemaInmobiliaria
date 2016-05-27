@@ -1,8 +1,8 @@
 ﻿Public Class bl_inmobiliaria
     Dim xda As DA_Inmobiliaria.da_inmobiliaria
-    Function MyFunc() As Boolean
+    Function SelectUsuario(x As String, y As String) As Collection
+        Dim dato As Collection
 
-        Return 0
     End Function
 
 End Class
