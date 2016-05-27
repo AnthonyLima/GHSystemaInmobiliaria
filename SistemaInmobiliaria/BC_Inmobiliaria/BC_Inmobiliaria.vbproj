@@ -97,6 +97,12 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WcfInmobiliaria\WcfInmobiliaria.vbproj">
+      <Project>{1a203d14-f051-48a9-90b3-258b25b29d22}</Project>
+      <Name>WcfInmobiliaria</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

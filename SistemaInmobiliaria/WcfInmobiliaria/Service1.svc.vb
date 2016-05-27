@@ -21,10 +21,18 @@ Public Class Service1
     End Function
 
     Public Function verificarUsuario(x As String, y As String) As Boolean Implements IService1.verificarUsuario
-        Dim verificar As BL_Inmobiliaria.bl_inmobiliaria
-        Dim acceso As Boolean
-        'acceso = verificar
-        Return acceso
+        'Dim verificar As BL_Inmobiliaria.bl_inmobiliaria
+        'Dim acceso As Boolean
+        ''acceso = verificar
+        'Return acceso
+    End Function
+
+    Public Function obtenerUsuario(txtUsuario As String, txtClave As String) As usuarios Implements IService1.obtenerUsuario
+        Dim temp As New usuarios
+        Dim Obtener As New BL_Inmobiliaria.bl_inmobiliaria
+        Obtener.SelectOneUser(txtUsuario, txtClave)
+
+        Return temp
     End Function
 
 End Class

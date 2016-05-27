@@ -12,6 +12,8 @@ Public Interface IService1
 
     ' TODO: agregue aquí sus operaciones de servicio
 
+    Function obtenerUsuario(txtUsuario As String, txtClave As String) As usuarios
+
 End Interface
 
 ' Utilice un contrato de datos, como se ilustra en el ejemplo siguiente, para agregar tipos compuestos a las operaciones de servicio.

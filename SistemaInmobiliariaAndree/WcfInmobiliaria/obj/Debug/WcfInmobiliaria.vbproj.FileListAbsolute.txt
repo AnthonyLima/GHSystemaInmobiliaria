@@ -1,0 +1,3 @@
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WcfInmobiliaria\obj\Debug\WcfInmobiliaria.vbprojResolveAssemblyReference.cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WcfInmobiliaria\obj\Debug\WcfInmobiliaria.Resources.resources
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WcfInmobiliaria\obj\Debug\WcfInmobiliaria.vbproj.GenerateResource.Cache
