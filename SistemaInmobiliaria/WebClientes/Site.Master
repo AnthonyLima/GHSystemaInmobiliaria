@@ -1,77 +1,105 @@
-﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="WebClientes.SiteMaster" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="AppWeb.Site1" %>
 
 <!DOCTYPE html>
-<html lang="es">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta charset="utf-8" />     
-    <title><%: Page.Title %> - Mi aplicación ASP.NET</title>
-    <link href="~/Content/Site.css" rel="stylesheet" /> 
-    <asp:PlaceHolder runat="server">        
-        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <script src="<%: ResolveUrl("~/Scripts/modernizr-2.5.3.js") %>"></script>
-    </asp:PlaceHolder>
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <meta name="viewport" content="width=device-width" />
-    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+<html>
+<head>
+<title>Design 13</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="description" content="Description goes here">
+<meta name="keywords" content="keywords, go, here">
 </head>
 <body>
-    <form runat="server">
-    <asp:ScriptManager runat="server">
-        <Scripts>
-            <asp:ScriptReference Name="jquery" />
-            <asp:ScriptReference Name="jquery.ui.combined" />
-        </Scripts>
-    </asp:ScriptManager>
-    <header>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p class="site-title"><a runat="server" href="~/">su logotipo aquí</a></p>
-            </div>
-            <div class="float-right">
-                <section id="login">
-                    <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
-                            <ul>
-                                <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Registrarse</a></li>
-                                <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Iniciar sesión</a></li>
-                            </ul>
-                        </AnonymousTemplate>
-                        <LoggedInTemplate>
-                            <p>
-                                Hello, <a runat="server" class="username" href="~/Account/Manage.aspx" title="Manage your account">
-                                    <asp:LoginName runat="server" CssClass="username" />
-                                </a>.
-                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" />
-                            </p>
-                        </LoggedInTemplate>
-                    </asp:LoginView>
-                </section>
-                <nav>
-                    <ul id="menu">
-                        <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About.aspx">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact.aspx">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <div id="body">
-        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
-        <section class="content-wrapper main-content clear-fix">
-            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
-        </section>
-    </div>
-    <footer>
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p>
-                    &copy; <%: DateTime.Now.Year %> - My ASP.NET Application
-                </p>
-            </div>
-        </div>
-    </footer>
-    </form>
-</body>
-</html>
+<div align="center">
+<div id="container_big">
+<div id="container">
+<div id="header">
+<a href="./" title="Homepage ?><img src="images/logo.gif" border="0" height="55" width="290"></a>
+<div id="logo">Brightness</div>
+<div id="menu">
+<a href="#">Home</a>
+<a href="#">Financial Services</a>           
+<a href="#">Technology</a>   
+<a href="#">Business Ideas</a> 
+<a href="#">Publications</a>
+<a href="#">Site Map</a>
+<a href="#">Contacts</a>
+</div>
+
+</div>
+
+
+
+
+<!-- content begin -->
+<div id="steps">
+<div style="float: left; position: relative; width: 210px; left: 60px; top: 130px;">
+<h2>Small, Home Office</h2>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+</div>
+
+<div style="float: left; position: relative; width: 200px; left: 135px; top: 130px;">
+<h2>Medium-Sized 
+Enterprises</h2>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.<br />
+</div>
+
+<div style="float: left; position: relative; width: 190px; left: 215px; top: 130px;">
+<h2>Large Organisation</h2>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
+</div>
+
+</div>
+
+
+<div id="content">
+<div class="box"><div><img src="images/casa.jpg" style="height: 19px; width: 21px"></div>
+<div style="margin: 4px;">
+<h1>Free CSS Templates</h1>
+This is Brightness, a free, fully standards-compliant CSS template designed by <a href="images/casa.jpg/">Free CSS Templates</a>.
+
+This free template is released under a Creative Commons Attributions 2.5 license, so you¡¦re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) 
+<br>
+<strong><a href="#">Read more &raquo;</a></strong>
+</div><div><img src="images/box_bottom.gif"></div>
+</div>
+
+<div class="box"><div><img src="images/box_top.gif"></div>
+<div style="margin: 4px;">
+<h1>Content item title</h1>
+This is Brightness, a free, fully standards-compliant CSS template designed by <a href="http://www.free-css-templates.com/">Free CSS Templates</a>.
+
+This free template is released under a Creative Commons Attributions 2.5 license, so you¡¦re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) 
+<br>
+<strong><a href="#">Read more &raquo;</a></strong>
+</div><div><img src="images/box_bottom.gif"></div>
+</div>
+
+<div class="box"><div><img src="images/box_top.gif"></div>
+<div style="margin: 4px;">
+<h1>Content item title</h1>
+This is Brightness, a free, fully standards-compliant CSS template designed by <a href="http://www.free-css-templates.com/">Free CSS Templates</a>.
+
+This free template is released under a Creative Commons Attributions 2.5 license, so you¡¦re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :) 
+<br>
+<strong><a href="#">Read more &raquo;</a></strong>
+</div><div><img src="images/box_bottom.gif"></div>
+</div>
+
+
+
+<br clear="all">
+</div>
+</div>
+<!-- content end -->
+<div id="footer">
+&copy; 2007 <a href="#"><strong>SiteName.com</strong></a>
+   <br/>  Designed by <a href="http://www.free-css-templates.com/">Free CSS Templates</a>, Thanks to <a href="http://www.openwebdesign.org/">Web Design Firm</a>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</body></html>
