@@ -14,7 +14,7 @@
 <div id="container_big">
 <div id="container">
 <div id="header">
-<a href="./" title="Homepage ?><img src="images/logo.gif" border="0" height="55" width="290"></a>
+<a href="./" title="Homepage?><img src="images/logo.gif" border="0" height="55" width="290"></a>
 <div id="logo">Brightness</div>
 <div id="menu">
 <a href="#">Home</a>
@@ -102,4 +102,6 @@ This free template is released under a Creative Commons Attributions 2.5 license
 </div>
 </div>
 </div>
-</body></html>
+</body>
+
+</html>
