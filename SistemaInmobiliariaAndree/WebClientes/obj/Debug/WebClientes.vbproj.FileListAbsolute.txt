@@ -29,3 +29,39 @@ E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.dll
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.xml
 E:\ANTHONY\trabajo admiDeEmpresas\desarrollando\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WebClientes.dll.config
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WebClientes.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WebClientes.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WebClientes.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\AspNet.ScriptManager.jQuery.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.AspNet.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.Core.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OAuth.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OpenId.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\EntityFramework.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Microsoft.Web.Infrastructure.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\System.Web.Providers.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Org.Mentalis.Security.Cryptography.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Mono.Math.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\EntityFramework.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.Core.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OAuth.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OpenId.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DotNetOpenAuth.AspNet.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Org.Mentalis.Security.Cryptography.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\Mono.Math.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\es\EntityFramework.resources.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\es\System.Web.Providers.resources.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.vbprojResolveAssemblyReference.cache
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.Resources.resources
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.vbproj.GenerateResource.Cache
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.pdb
