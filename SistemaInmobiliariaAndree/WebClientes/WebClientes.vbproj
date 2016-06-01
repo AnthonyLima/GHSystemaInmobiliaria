@@ -132,7 +132,8 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="BuscatuHogar.aspx" />
+    <Content Include="Contactanos.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -188,9 +189,12 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Login.aspx" />
     <Content Include="Menu.aspx" />
+    <Content Include="Menu_Admin_o_Empleado.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="QuienesSomos.aspx" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
@@ -246,11 +250,18 @@
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.vb">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.designer.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="BuscatuHogar.aspx.designer.vb">
+      <DependentUpon>BuscatuHogar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Contact.aspx.vb">
-      <DependentUpon>Contact.aspx</DependentUpon>
+    <Compile Include="BuscatuHogar.aspx.vb">
+      <DependentUpon>BuscatuHogar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Contactanos.aspx.designer.vb">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contactanos.aspx.vb">
+      <DependentUpon>Contactanos.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.vb">
@@ -263,11 +274,25 @@
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Menu.aspx.designer.vb">
       <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menu.aspx.vb">
       <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Menu_Admin_o_Empleado.aspx.designer.vb">
+      <DependentUpon>Menu_Admin_o_Empleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Admin_o_Empleado.aspx.vb">
+      <DependentUpon>Menu_Admin_o_Empleado.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -288,6 +313,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.designer.vb">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QuienesSomos.aspx.vb">
+      <DependentUpon>QuienesSomos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

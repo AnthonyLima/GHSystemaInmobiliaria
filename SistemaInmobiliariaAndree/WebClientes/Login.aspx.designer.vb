@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Menu
+Partial Public Class Login1
     
     '''<summary>
     '''form1 control.
@@ -23,47 +23,29 @@ Partial Public Class Menu
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''btnquienes control.
+    '''txtuser control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnquienes As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txtuser As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''btnbuscahogar control.
+    '''txtpass control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnbuscahogar As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents txtpass As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''btncontactanos control.
+    '''txtingresar control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btncontactanos As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''txtlogin control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtlogin As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''Image1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
+    Protected WithEvents txtingresar As Global.System.Web.UI.WebControls.Button
 End Class

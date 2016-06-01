@@ -11,6 +11,7 @@
     <style type="text/css">
         .auto-style1 {
             color: #FFFFFF;
+            font-size: small;
         }
     </style>
 </head>
@@ -22,10 +23,10 @@
 <div id="header">
 <a href="./" title="Homepage ?><img src="images/logo.gif" border="0" height="55" width="290"></a>
 <div id="logo">Inmobiliaria del Sur</div>
-    <asp:Button ID="Button1" runat="server" Text="¿Quiénes Somos?" Width="123px" />
-    <asp:Button ID="Button2" runat="server" Text="Buscar tu hogar" Width="123px" />
-    <asp:Button ID="Button3" runat="server" Text="Contáctanos" Width="123px" />
-    <asp:Button ID="Button4" runat="server" Text="Login" Width="123px" />
+    <asp:Button ID="btnquienes" runat="server" Text="¿Quiénes Somos?" Width="123px" />
+    <asp:Button ID="btnbuscahogar" runat="server" Text="Buscar tu Hogar" Width="123px" />
+    <asp:Button ID="btncontactanos" runat="server" Text="Contáctanos" Width="123px" />
+    <asp:Button ID="txtlogin" runat="server" Text="Login" Width="123px" />
 
 </div>
 

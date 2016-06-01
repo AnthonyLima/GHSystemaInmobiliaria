@@ -150,6 +150,42 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebClientes.Login1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebClientes.Login1._txtuser">
+<summary>
+txtuser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebClientes.Login1._txtpass">
+<summary>
+txtpass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebClientes.Login1._txtingresar">
+<summary>
+txtingresar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebClientes.Menu._form1">
 <summary>
 form1 control.
@@ -186,9 +222,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Menu._Button4">
+<member name="F:WebClientes.Menu._txtlogin">
 <summary>
-Button4 control.
+txtlogin control.
 </summary>
 <remarks>
 Auto-generated field.
