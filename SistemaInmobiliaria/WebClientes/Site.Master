@@ -1,4 +1,4 @@
-﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="AppWeb.Site1" %>
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="~/Site.master.vb" Inherits="WebClientes.Site" %>
 
 <!DOCTYPE html>
 
@@ -14,7 +14,7 @@
 <div id="container_big">
 <div id="container">
 <div id="header">
-<a href="./" title="Homepage?><img src="images/logo.gif" border="0" height="55" width="290"></a>
+<a href="./" title="Homepage"><img src="images/logo.gif" border="0" height="55" width="290"></a>
 <div id="logo">Brightness</div>
 <div id="menu">
 <a href="#">Home</a>

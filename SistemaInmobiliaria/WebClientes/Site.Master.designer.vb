@@ -10,8 +10,6 @@
 Option Strict On
 Option Explicit On
 
-Namespace AppWeb
-    
-    Partial Public Class Site1
-    End Class
-End Namespace
+
+Partial Public Class Site
+End Class

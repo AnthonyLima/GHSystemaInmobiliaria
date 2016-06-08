@@ -55,9 +55,9 @@ D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\DotNetOpenAuth.AspN
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\EntityFramework.resources.dll
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\System.Web.Providers.resources.dll
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\bin\es\Microsoft.AspNet.Membership.OpenAuth.resources.dll
-D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.vbprojResolveAssemblyReference.cache
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.Resources.resources
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.vbproj.GenerateResource.Cache
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.dll
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.xml
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.pdb
+D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebClientes\obj\Debug\WebClientes.vbprojResolveAssemblyReference.cache
