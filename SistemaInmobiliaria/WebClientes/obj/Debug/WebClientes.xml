@@ -181,5 +181,14 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:WebClientes.SiteMaster._HeadContent">
+<summary>
+Control HeadContent.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 </members>
 </doc>

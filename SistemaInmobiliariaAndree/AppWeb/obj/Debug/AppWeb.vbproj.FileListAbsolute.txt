@@ -110,3 +110,42 @@ E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.vbproj.GenerateR
 E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.dll
 E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.xml
 E:\Andree 2\SistemaInmobiliaria - copia\AppWeb\obj\Debug\AppWeb.pdb
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\ApplicationInsights.config
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\csc.exe
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\vbc.exe
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\VBCSCompiler.exe
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\AppWeb.dll.config
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\AppWeb.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\AppWeb.pdb
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\AppWeb.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.DependencyCollector.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.Web.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.WindowsServer.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.ApplicationInsights.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.DependencyCollector.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.Web.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.AI.WindowsServer.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.ApplicationInsights.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\bin\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.vbprojResolveAssemblyReference.cache
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.Resources.resources
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.vbproj.GenerateResource.Cache
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.dll
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.xml
+D:\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\AppWeb\obj\Debug\AppWeb.pdb

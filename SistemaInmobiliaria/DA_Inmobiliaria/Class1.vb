@@ -9,6 +9,7 @@ Public Class da_inmobiliaria
         Dim dTabla As New DataTable
         Dim x As Boolean
 
+
         cmd.CommandText = "selectUnoUser"
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Connection = cn
@@ -25,7 +26,7 @@ Public Class da_inmobiliaria
         End While
 
         cn.Close()
-
+        'Return
 
 
     End Function
