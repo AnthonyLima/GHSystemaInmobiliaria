@@ -1,14 +1,13 @@
 ﻿Imports System.Data.SqlClient
 
+
 Public Class da_inmobiliaria
     Dim str As String = "Data Source=.;Initial Catalog=db1;Integrated Security=SSPI"
     Dim cmd As New SqlCommand
     Dim cn As New SqlConnection(str)
 
-    Function selectUnUsuario(Xuser As String, Xclave As String) As Boolean
+    Function selectUnUsuario(Xuser As String, Xclave As String) As DataTable
         Dim dTabla As New DataTable
-        Dim x As Boolean
-
 
         cmd.CommandText = "selectUnoUser"
         cmd.CommandType = CommandType.StoredProcedure
@@ -24,10 +23,12 @@ Public Class da_inmobiliaria
         While dr.Read
 
         End While
+        While dr.Read
+
+        End While
 
         cn.Close()
-        'Return
 
-
+        Return dTabla
     End Function
 End Class

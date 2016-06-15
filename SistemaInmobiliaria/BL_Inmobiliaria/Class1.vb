@@ -2,8 +2,8 @@
     Dim xda As DA_Inmobiliaria.da_inmobiliaria
 
 
-    Function SelectOneUser(user As String, clave As String) As Boolean
-        Dim verificar As Boolean
+    Function SelectOneUser(user As String, clave As String) As DataTable
+        Dim verificar As DataTable
         verificar = xda.selectUnUsuario(user, clave)
         Return verificar
     End Function
