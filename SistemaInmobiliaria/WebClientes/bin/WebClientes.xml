@@ -6,204 +6,188 @@ WebClientes
 </name>
 </assembly>
 <members>
-<member name="F:WebClientes.Login._RegisterHyperLink">
-<summary>
-Control RegisterHyperLink.
+<member name="F:WebClientes.WebPantalla.form1">
+	<summary>
+Control form1.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.Login._OpenAuthLogin">
-<summary>
-Control OpenAuthLogin.
+</member><member name="F:WebClientes.RegisterExternalLogin.providerMessage">
+	<summary>
+Control providerMessage.
 </summary>
-<remarks>
+	<remarks>
+Auto-generated field.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.RegisterExternalLogin.userNameForm">
+	<summary>
+Control userNameForm.
+</summary>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.Manage._successMessage">
-<summary>
-Control successMessage.
+</member><member name="F:WebClientes.RegisterExternalLogin.userName">
+	<summary>
+Control userName.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.Manage._setPassword">
-<summary>
-Control setPassword.
+</member><member name="F:WebClientes.RegisterExternalLogin.userNameMessage">
+	<summary>
+Control userNameMessage.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.Manage._password">
-<summary>
-Control password.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._newPasswordMessage">
-<summary>
-Control newPasswordMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._confirmPassword">
-<summary>
-Control confirmPassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._changePassword">
-<summary>
-Control changePassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._externalLoginsList">
-<summary>
-Control externalLoginsList.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.OpenAuthProviders._providersList">
-<summary>
+</member><member name="F:WebClientes.OpenAuthProviders.providersList">
+	<summary>
 Control providersList.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Register._RegisterUser">
-<summary>
+</member><member name="F:WebClientes.Register.RegisterUser">
+	<summary>
 Control RegisterUser.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.Register._RegisterUserWizardStep">
-<summary>
+</member><member name="F:WebClientes.Register.RegisterUserWizardStep">
+	<summary>
 Control RegisterUserWizardStep.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._providerMessage">
-<summary>
-Control providerMessage.
-</summary>
-<remarks>
-Auto-generated field.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userNameForm">
-<summary>
-Control userNameForm.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userName">
-<summary>
-Control userName.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userNameMessage">
-<summary>
-Control userNameMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="T:WebClientes.My.MyWebExtension">
- <summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
- <remarks></remarks>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Computer">
- <summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Computer">
+	<summary>
  Devuelve información sobre el equipo host.
  </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.User">
- <summary>
+</member><member name="P:WebClientes.My.MyWebExtension.User">
+	<summary>
  Devuelve información del usuario web actual.
  </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Request">
- <summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Request">
+	<summary>
  Devuelve un objeto Request.
  </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Response">
- <summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Response">
+	<summary>
  Devuelve un objeto Response.
  </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Log">
- <summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Log">
+	<summary>
  Devuelve el objeto de registro Asp.
  </summary>
-</member>
-<member name="F:WebClientes.SiteMaster._HeadContent">
-<summary>
+</member><member name="T:WebClientes.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WebClientes.SiteMaster.HeadContent">
+	<summary>
 Control HeadContent.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.SiteMaster._FeaturedContent">
-<summary>
+</member><member name="F:WebClientes.SiteMaster.FeaturedContent">
+	<summary>
 Control FeaturedContent.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.SiteMaster._MainContent">
-<summary>
+</member><member name="F:WebClientes.SiteMaster.MainContent">
+	<summary>
 Control MainContent.
 </summary>
-<remarks>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login.RegisterHyperLink">
+	<summary>
+Control RegisterHyperLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login.OpenAuthLogin">
+	<summary>
+Control OpenAuthLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.successMessage">
+	<summary>
+Control successMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.setPassword">
+	<summary>
+Control setPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.password">
+	<summary>
+Control password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.newPasswordMessage">
+	<summary>
+Control newPasswordMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.confirmPassword">
+	<summary>
+Control confirmPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.changePassword">
+	<summary>
+Control changePassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.externalLoginsList">
+	<summary>
+Control externalLoginsList.
+</summary>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>

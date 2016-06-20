@@ -1,5 +1,6 @@
-﻿Public Class bl_inmobiliaria
-    Dim xda As DA_Inmobiliaria.da_inmobiliaria
+﻿
+Public Class bl_inmobiliaria
+    Dim xda As DA_Inmobiliaria.da_Inmobiliaria
 
 
     Function SelectOneUser(user As String, clave As String) As DataTable

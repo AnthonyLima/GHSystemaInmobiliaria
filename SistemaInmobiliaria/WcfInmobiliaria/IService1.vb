@@ -8,7 +8,7 @@ Public Interface IService1
     <OperationContract()>
     Function GetDataUsingDataContract(ByVal composite As CompositeType) As CompositeType
 
-    Function verificarUsuario(x As String, y As String) As Xml
+    Function verificarUsuario(x As String, y As String) As DataTable
 
     ' TODO: agregue aquí sus operaciones de servicio
 

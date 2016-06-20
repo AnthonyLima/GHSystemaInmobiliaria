@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class SiteMaster
-    
+
     '''<summary>
     '''Control HeadContent.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class SiteMaster
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HeadContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-    
+
     '''<summary>
     '''Control FeaturedContent.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class SiteMaster
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents FeaturedContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
-    
+
     '''<summary>
     '''Control MainContent.
     '''</summary>

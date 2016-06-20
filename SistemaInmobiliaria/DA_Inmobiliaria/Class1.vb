@@ -20,13 +20,7 @@ Public Class da_inmobiliaria
         Dim dr As SqlDataReader
         dr = cmd.ExecuteReader
 
-        While dr.Read
-
-        End While
-        While dr.Read
-
-        End While
-
+        dTabla.Load(dr)
         cn.Close()
 
         Return dTabla
