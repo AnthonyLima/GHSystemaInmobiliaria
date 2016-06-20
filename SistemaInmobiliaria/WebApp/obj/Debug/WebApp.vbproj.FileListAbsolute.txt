@@ -1,0 +1,8 @@
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WebApp.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WebApp.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WebApp.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.Resources.resources
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.vbproj.GenerateResource.Cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.pdb
