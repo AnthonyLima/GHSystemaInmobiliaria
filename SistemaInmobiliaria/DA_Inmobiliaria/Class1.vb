@@ -25,4 +25,5 @@ Public Class da_inmobiliaria
 
         Return dTabla
     End Function
+
 End Class

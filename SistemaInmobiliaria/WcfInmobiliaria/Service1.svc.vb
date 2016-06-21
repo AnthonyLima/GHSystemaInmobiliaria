@@ -31,7 +31,6 @@ Public Class Service1
         Dim temp As New usuarios
         Dim Obtener As New BL_Inmobiliaria.bl_inmobiliaria
         Obtener.SelectOneUser(txtUsuario, txtClave)
-
         Return temp
     End Function
 
