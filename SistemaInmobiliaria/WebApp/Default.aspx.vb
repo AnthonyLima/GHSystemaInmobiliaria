@@ -7,6 +7,5 @@
         x = txtNombre.Text
         dtLista = conect.verificarUsuario(txtNombre.Text, txtClave.Text)
         lblSaludo.Text = dtLista.Rows(0)("Nombre")
-
     End Sub
 End Class
