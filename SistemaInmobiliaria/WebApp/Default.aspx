@@ -22,7 +22,8 @@
             <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
         </div>
         <div>
-            <asp:Button ID="btnSaludo" Text="click" runat="server" />
+            <asp:Button ID="btnSaludo" Text="click" runat="server" Width="63px" />
+            <asp:Button ID="btnOtraPagina" runat="server" Text="CambiarPagina" Width="135px" />
             <div>
               <asp:Label ID="lblSaludo" Text="" runat="server" />
             </div>

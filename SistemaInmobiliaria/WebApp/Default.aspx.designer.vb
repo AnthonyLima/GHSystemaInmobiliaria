@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class _Default
-
+    
     '''<summary>
     '''Control form1.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
+    
     '''<summary>
     '''Control lblNombre.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lblNombre As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''Control txtNombre.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtNombre As Global.System.Web.UI.WebControls.TextBox
-
+    
     '''<summary>
     '''Control lblClave.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lblClave As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''Control txtClave.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtClave As Global.System.Web.UI.WebControls.TextBox
-
+    
     '''<summary>
     '''Control btnSaludo.
     '''</summary>
@@ -66,7 +66,16 @@ Partial Public Class _Default
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnSaludo As Global.System.Web.UI.WebControls.Button
-
+    
+    '''<summary>
+    '''Control btnOtraPagina.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents btnOtraPagina As Global.System.Web.UI.WebControls.Button
+    
     '''<summary>
     '''Control lblSaludo.
     '''</summary>

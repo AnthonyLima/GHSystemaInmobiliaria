@@ -11,4 +11,10 @@
         dtLista = conect.verificarUsuario(txtNombre.Text, txtClave.Text)
         lblSaludo.Text = dtLista.Rows(0)("Usuario")
     End Sub
+
+    Protected Sub btnOtraPagina_Click(sender As Object, e As EventArgs) Handles btnOtraPagina.Click
+        Dim nuevapagina As Web02
+        Response.Redirect("./Web02.aspx")
+
+    End Sub
 End Class
