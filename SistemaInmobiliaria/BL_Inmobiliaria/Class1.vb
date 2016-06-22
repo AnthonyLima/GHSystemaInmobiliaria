@@ -1,8 +1,8 @@
 ﻿
 Public Class bl_inmobiliaria
-    Dim xda As DA_Inmobiliaria.da_inmobiliaria
+    Dim xda As New DA_Inmobiliaria.da_inmobiliaria
     Function SelectOneUser(user As String, clave As String) As DataTable
-        Dim verificar As DataTable
+        Dim verificar As New DataTable
         verificar = xda.selectUnUsuario(user, clave)
         Return verificar
     End Function
