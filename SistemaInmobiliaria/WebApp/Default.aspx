@@ -11,10 +11,11 @@
     <form id="form1" runat="server">
     <div>
         <div>
-           
-            <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
+            <asp:Image ImageUrl="./Imagenes/índice.jpg" runat="server" />
+            <div>
+                <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
             <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
-           
+            </div>
         </div>
     </div>
         <div>

@@ -9,11 +9,14 @@
         Dim dtLista As New DataTable
         x = txtNombre.Text
         dtLista = conect.verificarUsuario(txtNombre.Text, txtClave.Text)
-        lblSaludo.Text = dtLista.Rows(0)("Usuario")
+        If (dtLista.Rows.Count = 0) Then
+            lblSaludo.Text = "el usuario no existe o introdujo mal la contraseña"
+        Else
+            lblSaludo.Text = dtLista.Rows(0)("Usuario")
+        End If
     End Sub
 
     Protected Sub btnOtraPagina_Click(sender As Object, e As EventArgs) Handles btnOtraPagina.Click
-        Dim nuevapagina As Web02
         Response.Redirect("./Web02.aspx")
 
     End Sub

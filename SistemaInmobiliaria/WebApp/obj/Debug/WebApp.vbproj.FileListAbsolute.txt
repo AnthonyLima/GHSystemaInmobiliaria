@@ -25,3 +25,13 @@ D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.vbproj.Gene
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.dll
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.xml
 D:\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WcfInmobiliaria.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\BL_Inmobiliaria.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\DA_Inmobiliaria.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WcfInmobiliaria.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\WcfInmobiliaria.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\BL_Inmobiliaria.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\BL_Inmobiliaria.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\DA_Inmobiliaria.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\bin\DA_Inmobiliaria.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliaria\WebApp\obj\Debug\WebApp.vbprojResolveAssemblyReference.cache
