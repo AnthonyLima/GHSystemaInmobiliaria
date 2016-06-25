@@ -11,23 +11,34 @@
     <form id="form1" runat="server">
     <div>
         <div>
-            <asp:Image ImageUrl="./Imagenes/índice.jpg" runat="server" />
-            <div>
-                <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
+            <asp:Image ImageUrl="./Imagenes/índice.jpg" runat="server" />     
+        </div>
+        <div style="margin-left: 40px">
+            <asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
             <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
-            </div>
+            <div>
+            <asp:Label ID="Label1" runat="server" Text="Clave"></asp:Label>
+            <asp:TextBox ID="TxtClave" runat="server"></asp:TextBox>
         </div>
+         </div>
     </div>
-        <div>
-            <asp:Label ID="lblClave" runat="server" Text="Clave"></asp:Label>
-            <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
-        </div>
-        <div>
+     <div style="margin-left: 40px">
             <asp:Button ID="btnSaludo" Text="click" runat="server" Width="63px" />
             <asp:Button ID="btnOtraPagina" runat="server" Text="CambiarPagina" Width="135px" />
             <div>
               <asp:Label ID="lblSaludo" Text="" runat="server" />
             </div>
+     </div>      
+        <div id="Contenido">
+             <div id="Indice">
+                
+             </div>
+             <div id="vista">
+
+             </div>
+        </div>
+        <div id="PiePagina">
+
         </div>
     </form>
 </body>
