@@ -23,22 +23,22 @@ Partial Public Class Login1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''txtuser control.
+    '''txtnombre control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtuser As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtnombre As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''txtpass control.
+    '''txtclave control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtpass As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtclave As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''txtingresar control.
@@ -48,4 +48,13 @@ Partial Public Class Login1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtingresar As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''btnregresar control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnregresar As Global.System.Web.UI.WebControls.Button
 End Class

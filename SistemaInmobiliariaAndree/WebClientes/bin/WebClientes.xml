@@ -150,6 +150,24 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:WebClientes.BuscatuHogar._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebClientes.Contactanos._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebClientes.Login1._form1">
 <summary>
 form1 control.
@@ -159,18 +177,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Login1._txtuser">
+<member name="F:WebClientes.Login1._txtnombre">
 <summary>
-txtuser control.
+txtnombre control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Login1._txtpass">
+<member name="F:WebClientes.Login1._txtclave">
 <summary>
-txtpass control.
+txtclave control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -186,6 +204,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:WebClientes.Login1._btnregresar">
+<summary>
+btnregresar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:WebClientes.Menu._form1">
 <summary>
 form1 control.
@@ -195,27 +222,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Menu._Button1">
+<member name="F:WebClientes.Menu._btnquienes">
 <summary>
-Button1 control.
+btnquienes control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Menu._Button2">
+<member name="F:WebClientes.Menu._btnbuscahogar">
 <summary>
-Button2 control.
+btnbuscahogar control.
 </summary>
 <remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:WebClientes.Menu._Button3">
+<member name="F:WebClientes.Menu._btncontactanos">
 <summary>
-Button3 control.
+btncontactanos control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -234,6 +261,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:WebClientes.Menu._Image1">
 <summary>
 Image1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:WebClientes.MenuEmpleadoAdmin._form1">
+<summary>
+form1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -270,6 +306,15 @@ To modify move field declaration from designer file to code-behind file.
  <summary>
  Devuelve el objeto de registro Asp.
  </summary>
+</member>
+<member name="F:WebClientes.QuienesSomos._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member>
 </members>
 </doc>

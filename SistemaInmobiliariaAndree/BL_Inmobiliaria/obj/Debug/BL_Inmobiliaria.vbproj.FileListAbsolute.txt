@@ -1,0 +1,12 @@
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\BL_Inmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\BL_Inmobiliaria.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\BL_Inmobiliaria.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\DA_Inmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\DA_Inmobiliaria.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\bin\Debug\DA_Inmobiliaria.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.vbprojResolveAssemblyReference.cache
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.Resources.resources
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.vbproj.GenerateResource.Cache
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\BL_Inmobiliaria\obj\Debug\BL_Inmobiliaria.pdb

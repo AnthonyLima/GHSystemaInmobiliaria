@@ -98,10 +98,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BC_Inmobiliaria\BC_Inmobiliaria.vbproj">
-      <Project>{a9290a98-dfce-42ea-8a8b-5dc902b16841}</Project>
-      <Name>BC_Inmobiliaria</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DA_Inmobiliaria\DA_Inmobiliaria.vbproj">
       <Project>{d6a155af-ef1d-4ceb-a4e5-159cef4a13db}</Project>
       <Name>DA_Inmobiliaria</Name>

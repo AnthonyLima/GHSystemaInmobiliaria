@@ -352,6 +352,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WcfInmobiliaria\WcfInmobiliaria.vbproj">
+      <Project>{1a203d14-f051-48a9-90b3-258b25b29d22}</Project>
+      <Name>WcfInmobiliaria</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

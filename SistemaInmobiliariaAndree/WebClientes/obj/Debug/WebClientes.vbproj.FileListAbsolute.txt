@@ -65,3 +65,12 @@ E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClient
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.dll
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.xml
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\obj\Debug\WebClientes.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WcfInmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\BL_Inmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DA_Inmobiliaria.dll
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WcfInmobiliaria.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\WcfInmobiliaria.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\BL_Inmobiliaria.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\BL_Inmobiliaria.xml
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DA_Inmobiliaria.pdb
+E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\WebClientes\bin\DA_Inmobiliaria.xml
