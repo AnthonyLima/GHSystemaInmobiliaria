@@ -10,9 +10,15 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
+        <asp:Button ID="btnRegresar" Text="Volver a la pantalla inicial" runat="server" />
+        <asp:Button ID="btnRecargar" Text="Refrescar la grilla" runat="server" />
     </div>
-        <asp:Label ID="LblFecha" runat="server" Text="Label"></asp:Label>
+    <div> 
+        <div>
+            <asp:DataGrid runat="server"></asp:DataGrid>
+        </div>
+    </div>
+    <asp:Label ID="LblFecha" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

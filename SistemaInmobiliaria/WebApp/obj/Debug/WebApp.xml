@@ -6,108 +6,159 @@ WebApp
 </name>
 </assembly>
 <members>
-<member name="F:WebApp._Default.form1">
-	<summary>
+<member name="F:WebApp._Default._form1">
+<summary>
 Control form1.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.lblNombre">
-	<summary>
+</member>
+<member name="F:WebApp._Default._lblNombre">
+<summary>
 Control lblNombre.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.txtNombre">
-	<summary>
+</member>
+<member name="F:WebApp._Default._txtNombre">
+<summary>
 Control txtNombre.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.lblClave">
-	<summary>
-Control lblClave.
+</member>
+<member name="F:WebApp._Default._Label1">
+<summary>
+Control Label1.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.txtClave">
-	<summary>
-Control txtClave.
+</member>
+<member name="F:WebApp._Default._TxtClave">
+<summary>
+Control TxtClave.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.btnSaludo">
-	<summary>
-Control btnSaludo.
+</member>
+<member name="F:WebApp._Default._btnLogin">
+<summary>
+Control btnLogin.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.btnOtraPagina">
-	<summary>
+</member>
+<member name="F:WebApp._Default._btnOtraPagina">
+<summary>
 Control btnOtraPagina.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp._Default.lblSaludo">
-	<summary>
+</member>
+<member name="F:WebApp._Default._lblSaludo">
+<summary>
 Control lblSaludo.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="P:WebApp.My.MyWebExtension.Computer">
-	<summary>
- Devuelve información sobre el equipo host.
- </summary>
-</member><member name="P:WebApp.My.MyWebExtension.User">
-	<summary>
- Devuelve información del usuario web actual.
- </summary>
-</member><member name="P:WebApp.My.MyWebExtension.Request">
-	<summary>
- Devuelve un objeto Request.
- </summary>
-</member><member name="P:WebApp.My.MyWebExtension.Response">
-	<summary>
- Devuelve un objeto Response.
- </summary>
-</member><member name="P:WebApp.My.MyWebExtension.Log">
-	<summary>
- Devuelve el objeto de registro Asp.
- </summary>
-</member><member name="T:WebApp.My.MyWebExtension">
-	<summary>
+</member>
+<member name="F:WebApp._Default._btnQuienesSomos">
+<summary>
+Control btnQuienesSomos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp._Default._btnVerOfertas">
+<summary>
+Control btnVerOfertas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="T:WebApp.My.MyWebExtension">
+ <summary>
  Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
  </summary>
-	<remarks></remarks>
-</member><member name="F:WebApp.Web02.form1">
-	<summary>
+ <remarks></remarks>
+</member>
+<member name="P:WebApp.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:WebApp.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:WebApp.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:WebApp.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:WebApp.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:WebApp.Web02._form1">
+<summary>
 Control form1.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:WebApp.Web02.LblFecha">
-	<summary>
+</member>
+<member name="F:WebApp.Web02._btnRegresar">
+<summary>
+Control btnRegresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Web02._btnRecargar">
+<summary>
+Control btnRecargar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:WebApp.Web02._LblFecha">
+<summary>
 Control LblFecha.
 </summary>
-	<remarks>
+<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>

@@ -4,11 +4,11 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     End Sub
 
-    Protected Sub btnSaludo_Click(sender As Object, e As EventArgs) Handles btnSaludo.Click
+    Protected Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         Dim x As String
         Dim dtLista As New DataTable
         x = txtNombre.Text
-        dtLista = conect.verificarUsuario(txtNombre.Text, txtClave.Text)
+        dtLista = conect.verificarUsuario(txtNombre.Text, TxtClave.Text)
         If (dtLista.Rows.Count = 0) Then
             lblSaludo.Text = "el usuario no existe o introdujo mal la contraseña"
         Else
