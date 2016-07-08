@@ -1,3 +1,17 @@
+create table Usuarios(
+ID int not null,
+Usuario nvarchar(20) not null,
+Clave nvarchar(25) not null,
+NombreYApellidos nvarchar(60) not null
+constraint pk_Usuarios primary key(id));
+
+insert into Usuarios values (1, 'andree', 'alvarez', 'alvarezguzman')
+insert into Usuarios values (2, 'serena', 'serena', 'serenasan')
+
+select * from Usuarios
+
+----------------------------------------
+
 create proc SelectUnoUsuario
 @Usuario nvarchar(20),
 @Clave nvarchar(25)
@@ -6,6 +20,17 @@ begin
  select	u.usuario,u.Clave from Usuarios as u
  where u.usuario = @Usuario and u.Clave = @Clave
 end
+
+create proc SelectUnoPersona
+@ID nvarchar(20)
+as
+begin
+ select	ID from Persona 
+ where ID = @ID
+end
+
+
+select * from Persona
 
 create proc PGIUsuario
 @ID as int,
@@ -20,5 +45,3 @@ end;
 
 exec PGIUsuario 1,'Admin','12345','Usuario Administrador'
 exec PGIUsuario 2,'control','12345','Usuario de vista'
-
--------------------------------------------

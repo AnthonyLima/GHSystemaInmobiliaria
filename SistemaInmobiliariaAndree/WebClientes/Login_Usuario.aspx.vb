@@ -12,14 +12,18 @@
             'x = txtNombre.Text
             dtLista = conect.verificarUsuario(txtnombre.Text, txtclave.Text)
 
-            If (dtLista.Columns.Count > 0) Then
+            If (dtLista.Container Is Nothing) Then
                 'If dtLista.Rows(0)("Usuario") = txtnombre.Text And dtLista.Rows(0)("Clave") = txtclave.Text Then
-                Response.Redirect("Menu_Admin_o_Empleado.aspx")
-            Else
-                'If (dtLista.Columns.Count = 0) Then
+                '    'If dtLista.Rows(0)("Usuario") = txtnombre.Text And dtLista.Rows(0)("Clave") = txtclave.Text Then
+                '    Response.Redirect("Menu_Admin_o_Empleado.aspx")
+                '    'Else
+                '    'If dtLista Is Nothing Then
+                '    'If (dtLista.Columns.Count = 0) Then
                 Response.Write("Verifique si el Usuario o la clave son correctos")
                 'End If
-                'End If
+            Else
+                Response.Redirect("Menu_User.aspx")
+                'Response.Write("Verifique si el Usuario o la clave son correctos")
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

@@ -28,4 +28,25 @@ Public Class da_inmobiliaria
         Return dTabla
     End Function
 
+    Function selectUnPersona(XID As String) As DataTable
+        Dim dTabla As New DataTable
+
+        cmd.CommandText = "SelectUnoPersona"
+        cmd.CommandType = CommandType.StoredProcedure
+        cmd.Parameters.AddWithValue("@ID", XID)
+
+        cmd.Connection = cn
+
+        dTabla.Columns.Add("ID")
+
+        cn.Open()
+        Dim dr As SqlDataReader
+        dr = cmd.ExecuteReader
+
+        dTabla.Load(dr)
+        cn.Close()
+
+        Return dTabla
+    End Function
+
 End Class

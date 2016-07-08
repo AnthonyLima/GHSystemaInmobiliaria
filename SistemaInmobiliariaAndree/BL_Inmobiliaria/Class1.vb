@@ -7,4 +7,10 @@
         Return verificar
     End Function
 
+    Function SelectOnePerson(id As Double) As DataTable
+        Dim verificar As New DataTable
+        verificar = xda.selectUnPersona(id)
+        Return verificar
+    End Function
+
 End Class

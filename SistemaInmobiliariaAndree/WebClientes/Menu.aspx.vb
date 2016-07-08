@@ -9,7 +9,7 @@ Public Class Menu
     End Sub
 
     Protected Sub txtlogin_Click(sender As Object, e As EventArgs) Handles txtlogin.Click
-        Response.Redirect("Login.aspx")
+        Response.Redirect("Rol.aspx")
     End Sub
 
     Protected Sub btncontactanos_Click(sender As Object, e As EventArgs) Handles btncontactanos.Click

@@ -33,4 +33,19 @@ Public Class Service1
         Obtener.SelectOneUser(txtUsuario, txtClave)
         Return temp
     End Function
+
+    Public Function verificarPersona(x As Double) As DataTable Implements IService1.verificarPersona
+        Dim verificar As New BL_Inmobiliaria.bl_inmobiliaria
+        Dim acceso As DataTable
+        acceso = verificar.SelectOnePerson(x)
+        Return acceso
+    End Function
+
+    Public Function obtenerPersona(txtID As Double) As usuarios Implements IService1.obtenerPersona
+        Dim temp As New usuarios
+        Dim Obtener As New BL_Inmobiliaria.bl_inmobiliaria
+        Obtener.SelectOnePerson(txtID)
+        Return temp
+    End Function
+
 End Class

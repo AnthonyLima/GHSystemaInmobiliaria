@@ -10,9 +10,13 @@ Public Interface IService1
 
     Function verificarUsuario(x As String, y As String) As DataTable
 
+    Function verificarPersona(x As Double) As DataTable
+
     ' TODO: agregue aquí sus operaciones de servicio
 
     Function obtenerUsuario(txtUsuario As String, txtClave As String) As usuarios
+
+    Function obtenerPersona(txtID As Double) As usuarios
 
 End Interface
 
@@ -66,8 +70,9 @@ Public Class usuarios
             _NombreYApellidos = value
         End Set
     End Property
+End Class
 
-    Public Class roles
+Public Class roles
         Private _id As Integer
         Public Property id() As Integer
             Get
@@ -88,5 +93,107 @@ Public Class usuarios
         End Property
     End Class
 
+Public Class Persona
+    Private _ID As Double
+    Public Property ID() As Double
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Double)
+            _ID = value
+        End Set
+    End Property
+
+    Private _Id_TDoc As Integer
+    Public Property Id_TDoc() As Integer
+        Get
+            Return _Id_TDoc
+        End Get
+        Set(ByVal value As Integer)
+            _Id_TDoc = value
+        End Set
+    End Property
+
+    Private _Nombres As String
+    Public Property Nombres() As String
+        Get
+            Return _Nombres
+        End Get
+        Set(ByVal value As String)
+            _Nombres = value
+        End Set
+    End Property
+
+    Private _Apellidos As String
+    Public Property Apellidos() As String
+        Get
+            Return _Apellidos
+        End Get
+        Set(ByVal value As String)
+            _Apellidos = value
+        End Set
+    End Property
+
+    Private _FechaNac As Date
+    Public Property FechaNac() As Date
+        Get
+            Return _FechaNac
+        End Get
+        Set(ByVal value As Date)
+            _FechaNac = value
+        End Set
+    End Property
+
+    Private _Direccion As String
+    Public Property Direccion() As String
+        Get
+            Return _Direccion
+        End Get
+        Set(ByVal value As String)
+            _Direccion = value
+        End Set
+    End Property
+
+    Private _Telefono_fijo As Integer
+    Public Property Telefono_fijo() As Integer
+        Get
+            Return _Telefono_fijo
+        End Get
+        Set(ByVal value As Integer)
+            _Telefono_fijo = value
+        End Set
+    End Property
+
+    Private _Telefono_Movil As Double
+    Public Property Telefono_Movil() As Double
+        Get
+            Return _Telefono_Movil
+        End Get
+        Set(ByVal value As Double)
+            _Telefono_Movil = value
+        End Set
+    End Property
+
+    Private _Correo As String
+    Public Property Correo() As String
+        Get
+            Return _Correo
+        End Get
+        Set(ByVal value As String)
+            _Correo = value
+        End Set
+    End Property
+
+    Private _Nacionalidad As String
+    Public Property Nacionalidad() As String
+        Get
+            Return _Nacionalidad
+        End Get
+        Set(ByVal value As String)
+            _Nacionalidad = value
+        End Set
+    End Property
+
 End Class
+
 
