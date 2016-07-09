@@ -7,3 +7,12 @@ E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobi
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.dll
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.xml
 E:\Andree\Inmobiliaria\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\bin\Debug\DA_Inmobiliaria.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\bin\Debug\DA_Inmobiliaria.pdb
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\bin\Debug\DA_Inmobiliaria.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.vbprojResolveAssemblyReference.cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.Resources.resources
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.vbproj.GenerateResource.Cache
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.dll
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.xml
+E:\ANTHONY\githubTrabajos\GHSystemaInmobiliaria\SistemaInmobiliariaAndree\DA_Inmobiliaria\obj\Debug\DA_Inmobiliaria.pdb

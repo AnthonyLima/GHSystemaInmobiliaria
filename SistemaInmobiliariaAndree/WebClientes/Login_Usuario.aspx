@@ -18,7 +18,7 @@
             background-color: #2373C2;
         }
         .auto-style4 {
-            width: 628px;
+            width: 2000px;
         }
     </style>
 </head>
@@ -33,13 +33,13 @@
             <tr>
                 <td class="auto-style2">Usuario:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtnombre" runat="server" Width="275px"></asp:TextBox>
+                    <asp:TextBox ID="txtnombre" runat="server" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style2">Clave:</td>
                 <td class="auto-style4">
-                    <asp:TextBox ID="txtclave" runat="server" Width="275px"></asp:TextBox>
+                    <asp:TextBox ID="txtclave" runat="server" Width="200px"></asp:TextBox>
                 </td>
             </tr>
         </table>

@@ -1,8 +1,18 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Menu
+
     Inherits System.Web.UI.Page
-    Dim conexion As New SqlConnection("Data Source=LABE08; Initial Catalog=Inmobiliaria; Integrated Security=true")
+    'Dim conexion As New SqlConnection("Data Source=LABE08; Initial Catalog=Inmobiliaria; Integrated Security=true") 'ya no seria necesario usa ahora wcf
+
+    Sub Menu()
+
+    End Sub
+
+
+    Sub Menu(NombreUsuario As String)  'posible saludo despues de logearse no funciona por ahora
+        lblSaludo.Text = "Bienvenido " + NombreUsuario
+    End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
