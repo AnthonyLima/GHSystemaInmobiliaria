@@ -2,14 +2,15 @@
 
 Public Class da_inmobiliaria
 
-    Dim str As String = "Data Source=EQUIPO\ANDREE;Initial Catalog=Inmobiliaria;Integrated Security=SSPI"
+    'Dim str As String = "Data Source=EQUIPO\ANDREE;Initial Catalog=Inmobiliaria;Integrated Security=SSPI"
+    Dim str As String = "Data Source=.;Initial Catalog=Inmobiliaria;Integrated Security=SSPI"
     Dim cmd As New SqlCommand
     Dim cn As New SqlConnection(str)
 
     Function selectUnUsuario(Xuser As String, Xclave As String) As DataTable
         Dim dTabla As New DataTable
 
-        cmd.CommandText = "SelectUnoUsuario"
+        cmd.CommandText = "PCUsuario"
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.AddWithValue("@Usuario", Xuser)
         cmd.Parameters.AddWithValue("@Clave", Xclave)
@@ -17,6 +18,7 @@ Public Class da_inmobiliaria
 
         dTabla.Columns.Add("Usuario")
         dTabla.Columns.Add("Clave")
+        dTabla.Columns.Add("NombreYApellidos")
 
         cn.Open()
         Dim dr As SqlDataReader
