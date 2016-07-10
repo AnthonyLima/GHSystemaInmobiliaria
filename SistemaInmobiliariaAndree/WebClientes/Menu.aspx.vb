@@ -13,7 +13,6 @@ Public Class Menu
     End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
     End Sub
 
     Protected Sub txtlogin_Click(sender As Object, e As EventArgs) Handles txtlogin.Click
