@@ -93,6 +93,199 @@ Public Class roles
         End Property
     End Class
 
+Public Class usuariosRoles
+    Private _ID_Usuario As Integer
+    Public Property ID_Usuario() As Integer
+        Get
+            Return _ID_Usuario
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Usuario = value
+        End Set
+    End Property
+    Private _ID_Roles As Integer
+    Public Property ID_Roles() As Integer
+        Get
+            Return _ID_Roles
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Roles = value
+        End Set
+    End Property
+End Class
+
+Public Class Perfiles
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
+        End Set
+    End Property
+End Class
+
+Public Class UsuariosPerfiles
+    Private _ID_Usuarios As Integer
+    Public Property ID_Usuarios() As Integer
+        Get
+            Return _ID_Usuarios
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Usuarios = value
+        End Set
+    End Property
+    Private _ID_Perfiles As Integer
+    Public Property ID_Perfiles() As Integer
+        Get
+            Return _ID_Perfiles
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Perfiles = value
+        End Set
+    End Property
+End Class
+
+Public Class PermisosUsuarios
+    Private _ID_Usuarios As Integer
+    Public Property ID_Usuarios() As Integer
+        Get
+            Return _ID_Usuarios
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Usuarios = value
+        End Set
+    End Property
+    Private _ID_Menus As Integer
+    Public Property ID_Menus() As Integer
+        Get
+            Return _ID_Menus
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Menus = value
+        End Set
+    End Property
+    Private _ID_Opciones As Integer
+    Public Property ID_Opciones() As String
+        Get
+            Return _ID_Opciones
+        End Get
+        Set(ByVal value As String)
+            _ID_Opciones = value
+        End Set
+    End Property
+    Private _tipoPermiso As String
+    Public Property TipoPermiso() As String
+        Get
+            Return _tipoPermiso
+        End Get
+        Set(ByVal value As String)
+            _tipoPermiso = value
+        End Set
+    End Property
+End Class
+
+Public Class Menus
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
+        End Set
+    End Property
+    Private _ID_MenuPadre As Integer
+    Public Property ID_MenuPadre() As Integer
+        Get
+            Return _ID_MenuPadre
+        End Get
+        Set(ByVal value As Integer)
+            _ID_MenuPadre = value
+        End Set
+    End Property
+    Private _ID_Aplicacion As Integer
+    Public Property ID_Aplicacion() As Integer
+        Get
+            Return _ID_Aplicacion
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Aplicacion = value
+        End Set
+    End Property
+End Class
+
+Public Class Aplicaciones
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
+        End Set
+    End Property
+End Class
+
+Public Class Opciones
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
+        End Set
+    End Property
+    Private _ID_App As Integer
+    Public Property ID_App() As Integer
+        Get
+            Return _ID_App
+        End Get
+        Set(ByVal value As Integer)
+            _ID_App = value
+        End Set
+    End Property
+
+End Class
+
 Public Class Persona
     Private _ID As Double
     Public Property ID() As Double
@@ -587,6 +780,75 @@ Public Class DetalleVenta
         End Get
         Set(ByVal value As DateTime)
             _FechaPago = value
+        End Set
+    End Property
+    Private _Descripcion As String
+    Public Property Descripcion() As String
+        Get
+            Return _Descripcion
+        End Get
+        Set(ByVal value As String)
+            _Descripcion = value
+        End Set
+    End Property
+End Class
+
+Public Class Provincia
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _ID_Depart As Integer
+    Public Property ID_Depart() As Integer
+        Get
+            Return _ID_Depart
+        End Get
+        Set(ByVal value As Integer)
+            _ID_Depart = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
+        End Set
+    End Property
+    Private _Descripcion As String
+    Public Property Descripcion() As String
+        Get
+            Return _Descripcion
+        End Get
+        Set(ByVal value As String)
+            _Descripcion = value
+        End Set
+    End Property
+End Class
+
+Public Class Departamento
+    Private _ID As Integer
+    Public Property ID() As Integer
+        Get
+            Return _ID
+        End Get
+        Set(ByVal value As Integer)
+            _ID = value
+        End Set
+    End Property
+    Private _Nombre As String
+    Public Property Nombre() As String
+        Get
+            Return _Nombre
+        End Get
+        Set(ByVal value As String)
+            _Nombre = value
         End Set
     End Property
     Private _Descripcion As String
