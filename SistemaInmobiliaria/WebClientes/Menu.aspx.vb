@@ -6,16 +6,17 @@ Public Class Menu
     'Dim conexion As New SqlConnection("Data Source=LABE08; Initial Catalog=Inmobiliaria; Integrated Security=true") 'ya no seria necesario usa ahora wcf
 
     Sub Menu()
+        'If Not Request.QueryString("Valor") = "" Then
+        '    lblSaludo.Text = "Bienvenido " + Request.QueryString("Valor")
+        'End If
 
-    End Sub
-
-
-    Sub Menu(NombreUsuario As String)  'posible saludo despues de logearse no funciona por ahora
-        lblSaludo.Text = "Bienvenido " + NombreUsuario
+        Dim datoEntrada As String = Request.QueryString("Valor")
+        If Not datoEntrada.Trim() = "" Then
+            lblSaludo.Text = "Bienvenido " + datoEntrada
+        End If
     End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
     End Sub
 
     Protected Sub txtlogin_Click(sender As Object, e As EventArgs) Handles txtlogin.Click

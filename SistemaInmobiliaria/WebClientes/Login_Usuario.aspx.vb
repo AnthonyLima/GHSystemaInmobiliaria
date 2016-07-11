@@ -10,28 +10,16 @@
         Try
             Dim x As String
             Dim dtLista As New DataTable
-            'x = txtNombre.Text
             dtLista = conect.verificarUsuario(txtnombre.Text, txtclave.Text)
 
             If (dtLista.Rows.Count > 0) Then 'verifica que tenga datos 'como tiene datos significa que encontro al usuario
-
-
-
-
-
-
-                'If dtLista.Rows(0)("Usuario") = txtnombre.Text And dtLista.Rows(0)("Clave") = txtclave.Text Then
-                '    'If dtLista.Rows(0)("Usuario") = txtnombre.Text And dtLista.Rows(0)("Clave") = txtclave.Text Then
-                '    Response.Redirect("Menu_Admin_o_Empleado.aspx")
-                '    'Else
-                '    'If dtLista Is Nothing Then
-                '    'If (dtLista.Columns.Count = 0) Then
-
-                'End If
+                vmUsuario.usuario = dtLista.Rows(0)("usuario")
+                vmUsuario.clave = dtLista.Rows(0)("Clave")
+                vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
+                Response.Redirect("~/Menu.aspx?Valor=" + vmUsuario.NombreYApellidos.Trim(), False)
             Else 'dtLista esta vacio
-                Response.Write("escriba bien la clave o la contraseña")
                 Response.Redirect("Menu_User.aspx")
-                'Response.Write("Verifique si el Usuario o la clave son correctos")
+                Response.Write("Verifique si el Usuario o la clave son correctos")
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

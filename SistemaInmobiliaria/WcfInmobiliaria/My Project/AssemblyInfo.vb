@@ -2,22 +2,23 @@
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
-' La información general sobre un ensamblado se controla mediante el siguiente 
-' conjunto de atributos. Cambie los valores de estos atributos para modificar la información
+' La información general de un ensamblado se controla mediante el siguiente 
+' conjunto de atributos. Cambie estos atributos para modificar la información
 ' asociada a un ensamblado.
 
 ' Revisar los valores de los atributos del ensamblado
-<Assembly: AssemblyTitle("WebClientes")> 
+
+<Assembly: AssemblyTitle("WcfInmobiliaria")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("WebClientes")> 
+<Assembly: AssemblyProduct("WcfInmobiliaria")> 
 <Assembly: AssemblyCopyright("Copyright ©  2016")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
-'El siguiente GUID es para el Id. typelib cuando este proyecto esté expuesto a COM
-<Assembly: Guid("30c74417-789b-4413-8135-3da687ba9cba")> 
+'El siguiente GUID sirve como identificador de la biblioteca de tipos si este proyecto se expone a COM
+<Assembly: Guid("214ea231-fde2-4846-b68a-5768e2e24c82")> 
 
 ' La información de versión de un ensamblado consta de los siguientes cuatro valores:
 '
@@ -26,8 +27,8 @@ Imports System.Runtime.InteropServices
 '      Número de compilación
 '      Revisión
 '
-' Puede especificar todos los valores o aceptar los valores predeterminados de los números de compilación y de revisión 
-' mediante el carácter '*', como se muestra a continuación:
+' Puede especificar todos los valores o usar los valores predeterminados (número de versión de compilación y de revisión) 
+' usando el símbolo '*' como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("1.0.0.0")> 

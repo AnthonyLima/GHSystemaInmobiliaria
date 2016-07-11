@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -138,10 +139,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BC_Inmobiliaria\BC_Inmobiliaria.vbproj">
-      <Project>{a9290a98-dfce-42ea-8a8b-5dc902b16841}</Project>
-      <Name>BC_Inmobiliaria</Name>
-    </ProjectReference>
     <ProjectReference Include="..\BL_Inmobiliaria\BL_Inmobiliaria.vbproj">
       <Project>{af664d84-8d32-4f0b-b94d-896c53d19b01}</Project>
       <Name>BL_Inmobiliaria</Name>

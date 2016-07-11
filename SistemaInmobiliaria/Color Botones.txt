@@ -1,0 +1,15 @@
+
+Login Empleado:
+
+Hex={55,B9,46} -- Background Color
+Hex={98,EE,73} -- Foreground Color
+
+Login Usuario:
+
+Hex={23,73,C2} -- Backgground Color
+Hex={B5,BD,F9} -- Foreground Color
+
+Login Admin:
+
+Hex={93,93,00} -- Background Color
+Hex={FF,FF,0D} -- Foreground Color
