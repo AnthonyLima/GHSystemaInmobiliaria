@@ -1,7 +1,7 @@
 ﻿Public Class Login1
     Inherits System.Web.UI.Page
     Dim conect As New WcfInmobiliaria.Service1 'Dim conexion As New SqlConnection("Data Source=.; Initial Catalog=Inmobiliaria; Integrated Security=true")
-    Dim vmUsuario As New WcfInmobiliaria.usuarios 'para instanciar un usuario NO FUNCIONA POR AHORA 
+    Dim vmUsuario As New WcfInmobiliaria.usuarios
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     End Sub
@@ -18,8 +18,7 @@
                 vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
                 Response.Redirect("~/Menu.aspx?Valor=" + vmUsuario.NombreYApellidos.Trim(), False)
             Else 'dtLista esta vacio
-                Response.Redirect("Menu_User.aspx")
-                Response.Write("Verifique si el Usuario o la clave son correctos")
+                Respuesta.Text = "escriba bien el nombre o la contraseña"
             End If
         Catch ex As Exception
             MsgBox(ex.Message)

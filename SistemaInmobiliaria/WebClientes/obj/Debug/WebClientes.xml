@@ -327,6 +327,14 @@ Control btnregresar.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:WebClientes.Login1.Respuesta">
+	<summary>
+Control Respuesta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
 </member><member name="F:WebClientes.Login.RegisterHyperLink">
 	<summary>
 Control RegisterHyperLink.

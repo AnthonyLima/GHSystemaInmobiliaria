@@ -47,6 +47,9 @@
     </div>
         <asp:Button ID="txtingresar" runat="server" Text="Ingresar" Width="80px" CssClass="auto-style3" />
         <asp:Button ID="btnregresar" runat="server" Text="Regresar" Width="82px" CssClass="auto-style3" />
+        <div>
+            <asp:Label ID="Respuesta" Text="" runat="server" />
+        </div>
     </form>
 </body>
 </html>
