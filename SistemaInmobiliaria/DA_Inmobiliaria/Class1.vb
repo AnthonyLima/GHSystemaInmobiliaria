@@ -51,4 +51,37 @@ Public Class da_inmobiliaria
         Return dTabla
     End Function
 
+    Function selectTodasPropiedades() As DataTable
+        Dim dTabla As New DataTable
+
+        cmd.CommandText = "SelectTodasPropiedades"  'aun no tiene el procedimiento
+        cmd.CommandType = CommandType.StoredProcedure
+
+        cmd.Connection = cn
+
+        dTabla.Columns.Add("ID")
+        dTabla.Columns.Add("Titulo_Propiedad")
+        dTabla.Columns.Add("MtsCuadrados")
+        dTabla.Columns.Add("mtsConstruccion")
+        dTabla.Columns.Add("Direccion")
+        dTabla.Columns.Add("ID_Provincia")
+        dTabla.Columns.Add("CantBanos")
+        dTabla.Columns.Add("Habitaciones")
+        dTabla.Columns.Add("PrecioVenta")
+        dTabla.Columns.Add("PrecioAdquirido")
+        dTabla.Columns.Add("observaciones")
+        dTabla.Columns.Add("estadoVenta")
+        dTabla.Columns.Add("FechaConstruccion")
+        dTabla.Columns.Add("FechaInscripcion")
+
+        cn.Open()
+        Dim dr As SqlDataReader
+        dr = cmd.ExecuteReader
+
+        dTabla.Load(dr)
+        cn.Close()
+
+        Return dTabla
+    End Function
+
 End Class

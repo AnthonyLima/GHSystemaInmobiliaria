@@ -27,8 +27,8 @@
     <asp:Button ID="btnbuscahogar" runat="server" Text="Buscar tu Hogar" Width="123px" />
     <asp:Button ID="btncontactanos" runat="server" Text="Contáctanos" Width="123px" />
     <asp:Button ID="txtlogin" runat="server" Text="Login" Width="123px" />
-    <div>
-        <asp:Label ID="lblSaludo" runat="server" Text=""></asp:Label>
+    <div style="height: 20px; margin-bottom: 2px">
+        <asp:Label ID="lblSaludo" runat="server" Text="" ForeColor ="White"></asp:Label>
     </div>
 </div>
 
