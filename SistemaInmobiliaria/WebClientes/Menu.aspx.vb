@@ -7,20 +7,6 @@ Public Class Menu
     Dim vmUsuario As New WcfInmobiliaria.usuarios
 
     Sub Menu()
-        'Dim datoEntrada As String = Request.QueryString("Usuario")
-        'Dim datoEntrada02 As String = Request.QueryString("Clave")
-        'If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
-        '    Dim dtLista As New DataTable
-        '    dtLista = conect.verificarUsuario(datoEntrada, datoEntrada02)
-
-        '    If Not dtLista.Rows.Count() = 0 Then
-        '        vmUsuario.usuario = dtLista.Rows(0)("usuario")
-        '        vmUsuario.clave = dtLista.Rows(0)("Clave")
-        '        vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
-
-        '        lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
-        '    End If
-        'End If
     End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
