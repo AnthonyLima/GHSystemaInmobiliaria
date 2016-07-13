@@ -16,7 +16,7 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+   <form id="form1" runat="server">
 <div align="center">
 <div id="container_big">
 <div id="container">
@@ -27,8 +27,8 @@
     <asp:Button ID="btnbuscahogar" runat="server" Text="Buscar tu Hogar" Width="123px" />
     <asp:Button ID="btncontactanos" runat="server" Text="Contáctanos" Width="123px" />
     <asp:Button ID="txtlogin" runat="server" Text="Login" Width="123px" />
-    <div style="height: 20px; margin-bottom: 2px">
-        <asp:Label ID="lblSaludo" runat="server" Text="" ForeColor ="White"></asp:Label>
+    <div style="" height: 16px; margin-bottom: 21px; width: 791px;">
+        <asp:Label ID="lblSaludo" runat="server" Text="" ForeColor ="White" Font-Size="12"></asp:Label>
     </div>
 </div>
 
