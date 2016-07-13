@@ -16,7 +16,12 @@
                 vmUsuario.usuario = dtLista.Rows(0)("usuario")
                 vmUsuario.clave = dtLista.Rows(0)("Clave")
                 vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
-                Response.Redirect("~/Menu.aspx?Usuario=" + vmUsuario.usuario.Trim() + "&Clave=" + vmUsuario.clave.Trim(), False)
+                Session.Add("Usuario", vmUsuario.usuario)
+                Session.Add("Clave", vmUsuario.usuario)
+
+                Response.Redirect("~/Menu.aspx")
+
+                'Response.Redirect("~/Menu.aspx?Usuario= " + vmUsuario.usuario.Trim() + " & Clave = " + vmUsuario.clave.Trim(), False)
             Else 'dtLista esta vacio
                 Respuesta.Text = "escriba bien el nombre o la contraseña"
             End If
@@ -61,7 +66,7 @@
 
 
     'Protected Sub txtingresar_Click(sender As Object, e As EventArgs) Handles txtingresar.Click
-    '    Dim cmd As New SqlCommand("select Clave from Usuarios where Usuario = '" + txtuser.Text + "'")
+    '    Dim cmd As New SqlCommand("Select Clave from Usuarios where Usuario = '" + txtuser.Text + "'")
     '    cmd.Connection = conexion
     '    conexion.Open()
     '    Dim dr As SqlDataReader
