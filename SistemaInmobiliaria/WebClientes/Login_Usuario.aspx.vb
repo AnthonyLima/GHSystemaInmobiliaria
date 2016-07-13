@@ -4,6 +4,7 @@
     Dim vmUsuario As New WcfInmobiliaria.usuarios
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
     End Sub
 
     Protected Sub txtingresar_Click(sender As Object, e As EventArgs) Handles txtingresar.Click
@@ -11,6 +12,7 @@
             Dim x As String
             Dim dtLista As New DataTable
             dtLista = conect.verificarUsuario(txtnombre.Text, txtclave.Text)
+
 
             If (dtLista.Rows.Count > 0) Then 'verifica que tenga datos 'como tiene datos significa que encontro al usuario
                 vmUsuario.usuario = dtLista.Rows(0)("usuario")

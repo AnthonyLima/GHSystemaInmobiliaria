@@ -61,17 +61,13 @@ Public Class Menu
         '        vmUsuario.usuario = dtLista.Rows(0)("usuario")
         '        vmUsuario.clave = dtLista.Rows(0)("Clave")
         '        vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
-
         '        lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
         '    End If
-
-
         'End If
     End Sub
 
     Protected Sub txtlogin_Click(sender As Object, e As EventArgs) Handles txtlogin.Click
         Response.Redirect("Login_Usuario.aspx")
-
     End Sub
 
     Protected Sub btncontactanos_Click(sender As Object, e As EventArgs) Handles btncontactanos.Click
