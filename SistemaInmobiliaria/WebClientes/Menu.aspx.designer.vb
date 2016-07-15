@@ -23,6 +23,15 @@ Partial Public Class Menu
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''Control lblSaludo.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents lblSaludo As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control btnquienes.
     '''</summary>
     '''<remarks>
@@ -57,13 +66,4 @@ Partial Public Class Menu
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents txtlogin As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''Control lblSaludo.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblSaludo As Global.System.Web.UI.WebControls.Label
 End Class

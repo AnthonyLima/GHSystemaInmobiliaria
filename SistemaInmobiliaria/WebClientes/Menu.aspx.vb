@@ -18,9 +18,6 @@ Public Class Menu
         'poner esto postback en el login
 
         If IsPostBack Then
-
-
-
             datoEntrada = Session("Usuario").ToString
             datoEntrada02 = Session("Clave").ToString
             If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
