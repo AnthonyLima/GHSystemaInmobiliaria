@@ -84,4 +84,31 @@ Public Class da_inmobiliaria
         Return dTabla
     End Function
 
+    Function InsertarPersona(ID As Integer, IdTDoc As Integer, Nombres As String, Apellidos As String, FechaNac As Date, direccion As String, TelefonoFijo As Integer, telefonoMovil As Integer, Correo As String, Nacionalidad As String) As Boolean
+        Dim verificar As Boolean = True
+        'todo este procedimiento y los datos no fueron probados
+
+        cmd.CommandText = "InsertarPersona"
+        cmd.CommandType = CommandType.StoredProcedure
+        cmd.Parameters.AddWithValue("@ID", ID)
+        cmd.Parameters.AddWithValue("@IdTDoc", IdTDoc)
+        cmd.Parameters.AddWithValue("@Nombres", Nombres)
+        cmd.Parameters.AddWithValue("@Apellidos", Apellidos)
+        cmd.Parameters.AddWithValue("@FechaNac", FechaNac)
+        cmd.Parameters.AddWithValue("@direccion", direccion)
+        cmd.Parameters.AddWithValue("@TelefonoFijo", TelefonoFijo)
+        cmd.Parameters.AddWithValue("@TelefonoMovil", telefonoMovil)
+        cmd.Parameters.AddWithValue("@Correo", Correo)
+        cmd.Parameters.AddWithValue("@Nacionalidad", Nacionalidad)
+
+        cmd.Connection = cn
+        cn.Open()
+        cmd.ExecuteNonQuery()
+        cn.Close()
+
+
+        Return verificar
+
+    End Function
+
 End Class

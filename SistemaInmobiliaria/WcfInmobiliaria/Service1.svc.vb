@@ -95,4 +95,12 @@ Public Class Service1
 
     End Function
 
+    Function insertarPersona(sPersona As Persona) As Boolean Implements IService1.insertarPersona
+        'retorna un boleando por que en DA debe verificar que si se inserto(true) o no lo hiso(false)
+        Dim VerificarInsert As Boolean = True
+        Dim Bl As New BL_Inmobiliaria.bl_inmobiliaria
+        VerificarInsert = Bl.InsertPersona(sPersona.ID, sPersona.Id_TDoc, sPersona.Nombres, sPersona.Apellidos, sPersona.FechaNac, sPersona.Direccion, sPersona.Telefono_fijo, sPersona.Telefono_Movil, sPersona.Correo, sPersona.Nacionalidad)
+        Return VerificarInsert
+    End Function
+
 End Class

@@ -19,6 +19,7 @@ Public Interface IService1
     Function obtenerUnaPropiedad(sTituloPropiedad As String) As Propiedad
 
     Function obtenerPropiedades() As DataTable
+    Function insertarPersona(sPersona As Persona) As Boolean
 
     Function obtenerPersona(txtID As Double) As usuarios
 

@@ -18,4 +18,10 @@
         Obtener = xda.selectTodasPropiedades(sTituloPropiedad)
         Return Obtener
     End Function
+
+    Function InsertPersona(sID As Integer, sTDoc As Integer, sNombres As String, sApellidos As String, sFechaNac As Date, sDireccion As String, sTelefonoFijo As Integer, sTelefonoMovil As Integer, sCorreo As String, sNacionalidad As String) As Boolean
+        Dim verificar As Boolean = True
+        verificar = xda.InsertarPersona(sID, sTDoc, sNombres, sApellidos, sFechaNac, sDireccion, sTelefonoFijo, sTelefonoMovil, sCorreo, sNacionalidad)
+        Return verificar
+    End Function
 End Class
