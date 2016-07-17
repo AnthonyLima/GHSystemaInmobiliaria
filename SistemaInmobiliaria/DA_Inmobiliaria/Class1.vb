@@ -85,19 +85,19 @@ Public Class da_inmobiliaria
     End Function
 
     Function InsertarPersona(ID As Integer, IdTDoc As Integer, Nombres As String, Apellidos As String, FechaNac As Date, direccion As String, TelefonoFijo As Integer, telefonoMovil As Integer, Correo As String, Nacionalidad As String) As Boolean
-        Dim verificar As Boolean = True
+        Dim verificar As Boolean = True 'la idea es controlar si se ejecuto el procedimiento usando transacciones
         'todo este procedimiento y los datos no fueron probados
 
-        cmd.CommandText = "InsertarPersona"
+        cmd.CommandText = "PIPersona"
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.AddWithValue("@ID", ID)
-        cmd.Parameters.AddWithValue("@IdTDoc", IdTDoc)
+        cmd.Parameters.AddWithValue("@Id_TDoc", IdTDoc)
         cmd.Parameters.AddWithValue("@Nombres", Nombres)
         cmd.Parameters.AddWithValue("@Apellidos", Apellidos)
         cmd.Parameters.AddWithValue("@FechaNac", FechaNac)
-        cmd.Parameters.AddWithValue("@direccion", direccion)
-        cmd.Parameters.AddWithValue("@TelefonoFijo", TelefonoFijo)
-        cmd.Parameters.AddWithValue("@TelefonoMovil", telefonoMovil)
+        cmd.Parameters.AddWithValue("@Direccion", direccion)
+        cmd.Parameters.AddWithValue("@Telefono_Fijo", TelefonoFijo)
+        cmd.Parameters.AddWithValue("@Telefono_Movil", telefonoMovil)
         cmd.Parameters.AddWithValue("@Correo", Correo)
         cmd.Parameters.AddWithValue("@Nacionalidad", Nacionalidad)
 
