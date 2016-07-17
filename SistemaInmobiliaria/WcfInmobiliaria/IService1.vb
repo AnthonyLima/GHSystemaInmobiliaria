@@ -16,6 +16,10 @@ Public Interface IService1
 
     Function obtenerUsuario(txtUsuario As String, txtClave As String) As usuarios
 
+    Function obtenerUnaPropiedad(sTituloPropiedad As String) As Propiedad
+
+    Function obtenerPropiedades() As DataTable
+
     Function obtenerPersona(txtID As Double) As usuarios
 
 End Interface

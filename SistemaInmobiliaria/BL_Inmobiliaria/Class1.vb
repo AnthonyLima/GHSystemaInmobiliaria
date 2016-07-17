@@ -13,4 +13,9 @@
         Return verificar
     End Function
 
+    Function SeleccionUnaPropiedad(sTituloPropiedad As String) As DataTable
+        Dim Obtener As DataTable
+        Obtener = xda.selectTodasPropiedades(sTituloPropiedad)
+        Return Obtener
+    End Function
 End Class

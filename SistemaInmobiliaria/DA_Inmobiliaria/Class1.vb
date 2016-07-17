@@ -51,12 +51,12 @@ Public Class da_inmobiliaria
         Return dTabla
     End Function
 
-    Function selectTodasPropiedades() As DataTable
+    Function selectTodasPropiedades(sTitulo As String) As DataTable 'puedes pasarle un titulo de propiedad o "" para que el procedimiento llame a todos
         Dim dTabla As New DataTable
 
         cmd.CommandText = "SelectTodasPropiedades"  'aun no tiene el procedimiento
         cmd.CommandType = CommandType.StoredProcedure
-
+        cmd.Parameters.AddWithValue("@Titulo_Propiedad", sTitulo)
         cmd.Connection = cn
 
         dTabla.Columns.Add("ID")

@@ -20,7 +20,7 @@ Public Class Service1
         Return composite
     End Function
 
-    Public Function verificarUsuario(x As String, y As String) As DataTable Implements IService1.verificarUsuario
+    Public Function verificarUsuario(x As String, y As String) As DataTable Implements IService1.verificarUsuario 'se esta usando esta funcion
         Dim verificar As New BL_Inmobiliaria.bl_inmobiliaria
         Dim acceso As DataTable
         acceso = verificar.SelectOneUser(x, y)
@@ -46,6 +46,53 @@ Public Class Service1
         Dim Obtener As New BL_Inmobiliaria.bl_inmobiliaria
         Obtener.SelectOnePerson(txtID)
         Return temp
+    End Function
+
+    Public Function obtenerUnaPropiedad(sTituloPropiedad As String) As Propiedad Implements IService1.obtenerUnaPropiedad 'solo una propiedad
+        'si deseas solo uno puedes instanciar la clase aqui pero si quieres todas lo mejor es retornar un data table
+        Dim temp As New Propiedad
+        Dim obtenerDatos As New BL_Inmobiliaria.bl_inmobiliaria
+        Dim dtLista As New DataTable
+
+        dtLista = obtenerDatos.SeleccionUnaPropiedad(sTituloPropiedad)
+
+        If dtLista.Rows.Count = 0 Then
+            temp = New Propiedad() 'clase vacia
+        Else
+            'perdon el desorden de todos los datos
+            'verificar que los nombres de las filas esten bien por que podria generar errores
+            temp.ID = dtLista.Rows(0)("ID")
+            temp.Titulo_Propiedad = dtLista.Rows(0)("Titulo_Propiedad")
+            temp.Direccion = dtLista.Rows(0)("Direccion")
+            temp.CantBanos = dtLista.Rows(0)("CantBanos")
+            temp.EstadoVenta = dtLista.Rows(0)("EstadoVenta")
+            temp.Habitaciones = dtLista.Rows(0)("Habitaciones")
+            temp.IDProvincia = dtLista.Rows(0)("ID_Provincia")
+            temp.MtsConstruccion = dtLista.Rows(0)("MtsConstruccion")
+            temp.MtsCuadrados = dtLista.Rows(0)("MtsCuadrados")
+            temp.PrecioAdquirido = dtLista.Rows(0)("PrecioAdquirido")
+            temp.PrecioVenta = dtLista.Rows(0)("PrecioVenta")
+            temp.EstadoVenta = dtLista.Rows(0)("EstadoVenta")
+            temp.FechaCreacion = dtLista.Rows(0)("FechaCreacion")
+            temp.FechaInscripcion = dtLista.Rows(0)("FechaInscripcion")
+        End If
+
+        Return temp
+    End Function
+
+    Function ObtenerPropiedades() As DataTable Implements IService1.obtenerPropiedades
+        Dim temp As New DataTable
+        Dim obtenerDatos As New BL_Inmobiliaria.bl_inmobiliaria
+
+        'pondra todas las propiedades
+
+        temp = obtenerDatos.SeleccionUnaPropiedad("") 'debes tener un procedimiento que controle cuando le mandes una cadena vacio
+
+        If temp.Rows.Count = 0 Then
+            temp = New DataTable()
+        End If
+        Return temp
+
     End Function
 
 End Class
