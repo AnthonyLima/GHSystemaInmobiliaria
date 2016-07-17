@@ -18,12 +18,14 @@
                 vmUsuario.usuario = dtLista.Rows(0)("usuario")
                 vmUsuario.clave = dtLista.Rows(0)("Clave")
                 vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
-                Session.Add("Usuario", vmUsuario.usuario)
-                Session.Add("Clave", vmUsuario.usuario)
 
-                Response.Redirect("~/Menu.aspx")
+                '-----------------------------------------------------------
+                'Session.Add("Usuario", vmUsuario.usuario) 'usado con ispostback
+                'Session.Add("Clave", vmUsuario.usuario)
 
-                'Response.Redirect("~/Menu.aspx?Usuario= " + vmUsuario.usuario.Trim() + " & Clave = " + vmUsuario.clave.Trim(), False)
+                'Response.Redirect("~/Menu.aspx")
+                '--------------------------------------------------------
+                Response.Redirect("~/Menu.aspx?Usuario= " + vmUsuario.usuario.Trim() + " & Clave = " + vmUsuario.clave.Trim(), False)
             Else 'dtLista esta vacio
                 Respuesta.Text = "escriba bien el nombre o la contraseña"
             End If

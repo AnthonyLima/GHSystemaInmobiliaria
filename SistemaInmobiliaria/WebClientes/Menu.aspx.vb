@@ -12,41 +12,41 @@ Public Class Menu
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim datoEntrada As String = String.Empty
         Dim datoEntrada02 As String = String.Empty
-        'datoEntrada = Request.QueryString("Usuario")
-        'datoEntrada02 = Request.QueryString("Clave")
+        datoEntrada = Request.QueryString("Usuario")
+        datoEntrada02 = Request.QueryString("Clave")
 
         'poner esto postback en el login
 
-        If IsPostBack Then
-            datoEntrada = Session("Usuario").ToString
-            datoEntrada02 = Session("Clave").ToString
-            If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
-                Dim dtLista As New DataTable
-                dtLista = conect.verificarUsuario(datoEntrada.Trim(), datoEntrada02.Trim())
-                If Not dtLista.Rows.Count() = 0 Then
-                    vmUsuario.usuario = dtLista.Rows(0)("usuario")
-                    vmUsuario.clave = dtLista.Rows(0)("Clave")
-                    vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
+        'If IsPostBack Then
+        '    datoEntrada = Session("Usuario").ToString
+        '    datoEntrada02 = Session("Clave").ToString
+        '    If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
+        '        Dim dtLista As New DataTable
+        '        dtLista = conect.verificarUsuario(datoEntrada.Trim(), datoEntrada02.Trim())
+        '        If Not dtLista.Rows.Count() = 0 Then
+        '            vmUsuario.usuario = dtLista.Rows(0)("usuario")
+        '            vmUsuario.clave = dtLista.Rows(0)("Clave")
+        '            vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
 
-                    lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
-                End If
-            End If
-        End If
+        '            lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
+        '        End If
+        '    End If
+        'End If
         'datoEntrada = Session("Usuario").ToString.Trim()
         'datoEntrada02 = Session("Clave").ToString.Trim()
 
 
-        'If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
-        '    Dim dtLista As New DataTable
-        '    dtLista = conect.verificarUsuario(datoEntrada.Trim(), datoEntrada02.Trim())
+        If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
+            Dim dtLista As New DataTable
+            dtLista = conect.verificarUsuario(datoEntrada.Trim(), datoEntrada02.Trim())
 
-        '    If Not dtLista.Rows.Count() = 0 Then
-        '        vmUsuario.usuario = dtLista.Rows(0)("usuario")
-        '        vmUsuario.clave = dtLista.Rows(0)("Clave")
-        '        vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
-        '        lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
-        '    End If
-        'End If
+            If Not dtLista.Rows.Count() = 0 Then
+                vmUsuario.usuario = dtLista.Rows(0)("usuario")
+                vmUsuario.clave = dtLista.Rows(0)("Clave")
+                vmUsuario.NombreYApellidos = dtLista.Rows(0)("NombreYApellidos")
+                lblSaludo.Text = "bienvenido " + vmUsuario.NombreYApellidos
+            End If
+        End If
     End Sub
 
     Protected Sub txtlogin_Click(sender As Object, e As EventArgs) Handles txtlogin.Click

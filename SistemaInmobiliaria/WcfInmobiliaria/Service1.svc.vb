@@ -89,7 +89,7 @@ Public Class Service1
         temp = obtenerDatos.SeleccionUnaPropiedad("") 'debes tener un procedimiento que controle cuando le mandes una cadena vacio
 
         If temp.Rows.Count = 0 Then
-            temp = New DataTable()
+            temp = New DataTable() 'devolvera una tabla vacia
         End If
         Return temp
 
