@@ -6,699 +6,620 @@ WebClientes
 </name>
 </assembly>
 <members>
-<member name="F:WebClientes.Login._RegisterHyperLink">
-<summary>
-Control RegisterHyperLink.
+<member name="F:WebClientes.QuienesSomos.form1">
+	<summary>
+form1 control.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login._OpenAuthLogin">
-<summary>
-Control OpenAuthLogin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._successMessage">
-<summary>
-Control successMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._setPassword">
-<summary>
-Control setPassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._password">
-<summary>
-Control password.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._newPasswordMessage">
-<summary>
-Control newPasswordMessage.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._confirmPassword">
-<summary>
-Control confirmPassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._changePassword">
-<summary>
-Control changePassword.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Manage._externalLoginsList">
-<summary>
-Control externalLoginsList.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.OpenAuthProviders._providersList">
-<summary>
-Control providersList.
-</summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Register._RegisterUser">
-<summary>
-Control RegisterUser.
+</member><member name="F:WebClientes.Contactanos.form1">
+	<summary>
+form1 control.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Register._RegisterUserWizardStep">
-<summary>
-Control RegisterUserWizardStep.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._providerMessage">
-<summary>
+</member><member name="F:WebClientes.RegisterExternalLogin.providerMessage">
+	<summary>
 Control providerMessage.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userNameForm">
-<summary>
+</member><member name="F:WebClientes.RegisterExternalLogin.userNameForm">
+	<summary>
 Control userNameForm.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userName">
-<summary>
+</member><member name="F:WebClientes.RegisterExternalLogin.userName">
+	<summary>
 Control userName.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.RegisterExternalLogin._userNameMessage">
-<summary>
+</member><member name="F:WebClientes.RegisterExternalLogin.userNameMessage">
+	<summary>
 Control userNameMessage.
 </summary>
-<remarks>
+	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member>
-<member name="F:WebClientes.BuscarInmueble._form1">
-<summary>
+</member><member name="F:WebClientes.OpenAuthProviders.providersList">
+	<summary>
+Control providersList.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscatuHogar.form1">
+	<summary>
 form1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.BuscarInmueble._TextBox1">
-<summary>
-TextBox1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.BuscarInmueble._Button1">
-<summary>
-Button1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.BuscarInmueble._Button2">
-<summary>
-Button2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.BuscarInmueble._Button3">
-<summary>
-Button3 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.BuscatuHogar._form1">
-<summary>
+</member><member name="F:WebClientes.MenuEmpleadoAdmin.form1">
+	<summary>
 form1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Contactanos._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Admin._form2">
-<summary>
-form2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Admin._txtdni">
-<summary>
-txtdni control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Admin._txtingresar">
-<summary>
-txtingresar control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Admin._btnregresar">
-<summary>
-btnregresar control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Empleado._form2">
-<summary>
-form2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Empleado._txtdni">
-<summary>
-txtdni control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Empleado._txtingresar">
-<summary>
-txtingresar control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Empleado._btnregresar">
-<summary>
-btnregresar control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login_Empleado._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._txtnombre">
-<summary>
-Control txtnombre.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._txtclave">
-<summary>
-Control txtclave.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._txtingresar">
-<summary>
-Control txtingresar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._btnregresar">
-<summary>
-Control btnregresar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Login1._Respuesta">
-<summary>
-Control Respuesta.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._btnquienes">
-<summary>
-Control btnquienes.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._btnbuscahogar">
-<summary>
-Control btnbuscahogar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._btncontactanos">
-<summary>
-Control btncontactanos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._txtlogin">
-<summary>
-Control txtlogin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu._lblSaludo">
-<summary>
-Control lblSaludo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._HyperLink1">
-<summary>
-HyperLink1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btnagregarinm">
-<summary>
-btnagregarinm control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btneditarinm">
-<summary>
-btneditarinm control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btneliminarinm">
-<summary>
-btneliminarinm control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._HyperLink2">
-<summary>
-HyperLink2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btnagregarempl">
-<summary>
-btnagregarempl control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btneditarempl">
-<summary>
-btneditarempl control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._btneliminarempl">
-<summary>
-btneliminarempl control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._HyperLink3">
-<summary>
-HyperLink3 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._Button2">
-<summary>
-Button2 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Admin._Button3">
-<summary>
-Button3 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.MenuEmpleadoAdmin._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.MenuEmpleadoAdmin._Label1">
-<summary>
+</member><member name="F:WebClientes.MenuEmpleadoAdmin.Label1">
+	<summary>
 Label1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.MenuEmpleadoAdmin._Label2">
-<summary>
+</member><member name="F:WebClientes.MenuEmpleadoAdmin.Label2">
+	<summary>
 Label2 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.MenuEmpleadoAdmin._btnbusca">
-<summary>
+</member><member name="F:WebClientes.MenuEmpleadoAdmin.btnbusca">
+	<summary>
 btnbusca control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.MenuEmpleadoAdmin._btnregresar">
-<summary>
+</member><member name="F:WebClientes.MenuEmpleadoAdmin.btnregresar">
+	<summary>
 btnregresar control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._form1">
-<summary>
+</member><member name="F:WebClientes.Register.RegisterUser">
+	<summary>
+Control RegisterUser.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Register.RegisterUserWizardStep">
+	<summary>
+Control RegisterUserWizardStep.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.lblSaludo">
+	<summary>
+Control lblSaludo.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.btnquienes">
+	<summary>
+Control btnquienes.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.btnbuscahogar">
+	<summary>
+Control btnbuscahogar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.btncontactanos">
+	<summary>
+Control btncontactanos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu.txtlogin">
+	<summary>
+Control txtlogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Rol.form1">
+	<summary>
 form1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._HyperLink1">
-<summary>
+</member><member name="F:WebClientes.Rol.HyperLink1">
+	<summary>
 HyperLink1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._Button1">
-<summary>
+</member><member name="F:WebClientes.Rol.Button1">
+	<summary>
 Button1 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._Button3">
-<summary>
-Button3 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._Button4">
-<summary>
-Button4 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Menu_Empleado._btncerrar">
-<summary>
-btncerrar control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="T:WebClientes.My.MyWebExtension">
- <summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
- <remarks></remarks>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Computer">
- <summary>
- Devuelve información sobre el equipo host.
- </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.User">
- <summary>
- Devuelve información del usuario web actual.
- </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Request">
- <summary>
- Devuelve un objeto Request.
- </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Response">
- <summary>
- Devuelve un objeto Response.
- </summary>
-</member>
-<member name="P:WebClientes.My.MyWebExtension.Log">
- <summary>
- Devuelve el objeto de registro Asp.
- </summary>
-</member>
-<member name="F:WebClientes.QuienesSomos._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Rol._form1">
-<summary>
-form1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Rol._HyperLink1">
-<summary>
-HyperLink1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Rol._Button1">
-<summary>
-Button1 control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:WebClientes.Rol._Button2">
-<summary>
+</member><member name="F:WebClientes.Rol.Button2">
+	<summary>
 Button2 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Rol._Button3">
-<summary>
+</member><member name="F:WebClientes.Rol.Button3">
+	<summary>
 Button3 control.
 </summary>
-<remarks>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member>
-<member name="F:WebClientes.Rol._btnregresar">
-<summary>
+</member><member name="F:WebClientes.Rol.btnregresar">
+	<summary>
 btnregresar control.
 </summary>
-<remarks>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:WebClientes.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:WebClientes.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:WebClientes.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="T:WebClientes.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:WebClientes.Login_Empleado.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Empleado.txtdni">
+	<summary>
+txtdni control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Empleado.txtingresar">
+	<summary>
+txtingresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Empleado.btnregresar">
+	<summary>
+btnregresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Empleado.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login1.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login1.txtnombre">
+	<summary>
+Control txtnombre.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login1.txtclave">
+	<summary>
+Control txtclave.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login1.txtingresar">
+	<summary>
+Control txtingresar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login1.btnregresar">
+	<summary>
+Control btnregresar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login1.Respuesta">
+	<summary>
+Control Respuesta.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login.RegisterHyperLink">
+	<summary>
+Control RegisterHyperLink.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Login.OpenAuthLogin">
+	<summary>
+Control OpenAuthLogin.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.successMessage">
+	<summary>
+Control successMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.setPassword">
+	<summary>
+Control setPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.password">
+	<summary>
+Control password.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.newPasswordMessage">
+	<summary>
+Control newPasswordMessage.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.confirmPassword">
+	<summary>
+Control confirmPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.changePassword">
+	<summary>
+Control changePassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Manage.externalLoginsList">
+	<summary>
+Control externalLoginsList.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.Button4">
+	<summary>
+Button4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Empleado.btncerrar">
+	<summary>
+btncerrar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscarInmueble.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscarInmueble.TextBox1">
+	<summary>
+TextBox1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscarInmueble.Button1">
+	<summary>
+Button1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscarInmueble.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.BuscarInmueble.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Admin.form2">
+	<summary>
+form2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Admin.txtdni">
+	<summary>
+txtdni control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Admin.txtingresar">
+	<summary>
+txtingresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Login_Admin.btnregresar">
+	<summary>
+btnregresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btnagregarinm">
+	<summary>
+btnagregarinm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btneditarinm">
+	<summary>
+btneditarinm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btneliminarinm">
+	<summary>
+btneliminarinm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btnagregarempl">
+	<summary>
+btnagregarempl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btneditarempl">
+	<summary>
+btneditarempl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.btneliminarempl">
+	<summary>
+btneliminarempl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.HyperLink3">
+	<summary>
+HyperLink3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.Button2">
+	<summary>
+Button2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebClientes.Menu_Admin.Button3">
+	<summary>
+Button3 control.
+</summary>
+	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>

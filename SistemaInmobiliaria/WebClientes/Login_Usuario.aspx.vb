@@ -25,7 +25,7 @@
 
                 'Response.Redirect("~/Menu.aspx")
                 '--------------------------------------------------------
-                Response.Redirect("~/Menu.aspx?Usuario= " + vmUsuario.usuario.Trim() + " & Clave = " + vmUsuario.clave.Trim(), False)
+                Response.Redirect("~/Menu.aspx?Usuario=" + vmUsuario.usuario.Trim() + "&Clave=" + vmUsuario.clave.Trim(), False)
             Else 'dtLista esta vacio
                 Respuesta.Text = "escriba bien el nombre o la contraseña"
             End If

@@ -36,7 +36,7 @@ Public Class Menu
         'datoEntrada02 = Session("Clave").ToString.Trim()
 
 
-        If Not (datoEntrada.Trim() = "" And datoEntrada02.Trim() = "") Then
+        If Not (datoEntrada = "" And datoEntrada02 = "") Then
             Dim dtLista As New DataTable
             dtLista = conect.verificarUsuario(datoEntrada.Trim(), datoEntrada02.Trim())
 
