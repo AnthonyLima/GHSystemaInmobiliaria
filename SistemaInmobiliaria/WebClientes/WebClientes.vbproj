@@ -201,6 +201,7 @@
     <Content Include="Menu_Empleado.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="pagInsertPersona.aspx" />
     <Content Include="QuienesSomos.aspx" />
     <Content Include="Rol.aspx" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -356,6 +357,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pagInsertPersona.aspx.designer.vb">
+      <DependentUpon>pagInsertPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pagInsertPersona.aspx.vb">
+      <DependentUpon>pagInsertPersona.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="QuienesSomos.aspx.designer.vb">
       <DependentUpon>QuienesSomos.aspx</DependentUpon>

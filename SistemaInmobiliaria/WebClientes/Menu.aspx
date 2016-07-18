@@ -24,7 +24,7 @@
 <a href="./" title="Homepage?><img src="images/logo.gif" border="0" height="55" width="290"></a>
 <div id="logo">Inmobiliaria del Sur
     <div>
-        <asp:Label ID="lblSaludo" runat="server" Text="" ForeColor ="White" Font-Size="12"></asp:Label>
+        <asp:Label ID="lblSaludo" runat="server" Text="" ForeColor ="White" Font-Size="8"></asp:Label>
     </div>
     </div>
     <asp:Button ID="btnquienes" runat="server" Text="¿Quiénes Somos?" Width="123px" />
